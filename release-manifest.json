@@ -1,36 +1,37 @@
 {
   "schemaVersion": 1,
-  "product": "海鲜水族馆",
-  "version": "1.3.4",
-  "gitCommit": "f9ca2955551f196fc1106de3e1a8f2f6bef0627f",
+  "product": "直播水族馆",
+  "subtitle": "多平台直播监看",
+  "version": "1.5.0",
+  "gitCommit": "867c48b36e67df541db5ff03e0b3a32c2b64d16a",
   "gitTreeState": "clean",
-  "builtAtUtc": "2026-07-27T14:39:54.2532610+00:00",
+  "builtAtUtc": "2026-08-23T21:06:48.8010882+00:00",
   "releaseScope": "public",
   "installer": {
-    "fileName": "海鲜水族馆-Setup-1.3.4.exe",
-    "size": 84169173,
-    "sha256": "00954c2d143d69a219abefedfbac1096a58786a4076d7f1b9a4dfe426713a339"
+    "fileName": "直播水族馆-Setup-1.5.0.exe",
+    "size": 91415677,
+    "sha256": "18cb253fd3bc8283e470b9255d58b5640fdf8a7c7b4a834a6e407fa03950fec7"
   },
   "publicPackage": {
-    "fileCount": 490,
+    "fileCount": 563,
     "files": [
       {
-        "path": "海鲜水族馆.deps.json",
-        "size": 46439,
-        "sha256": "b4c1a5cc270b2bfba1a4ed0b74742e9e3b99e6f21a7d0f3da13bdae9b1911f6d"
+        "path": "直播水族馆.deps.json",
+        "size": 54157,
+        "sha256": "3082c4bd5bf8fe6dbf4a8500e8b22e7c86c27bdf52734ba880e6d61f01619084"
       },
       {
-        "path": "海鲜水族馆.dll",
-        "size": 2787328,
-        "sha256": "38aa7e7e4ea39649e5c66103ff77d1b2f705958af42b4447cb7315040078ddcf"
+        "path": "直播水族馆.dll",
+        "size": 1695232,
+        "sha256": "52416e8441f3e3e433c301b18f655a42475385b59273b94ab47fb5f39f1d44a3"
       },
       {
-        "path": "海鲜水族馆.exe",
-        "size": 239616,
-        "sha256": "e64c24d14c3d8980adde8db4c13086adbee71da5e001ca72f6bc1213dd761718"
+        "path": "直播水族馆.exe",
+        "size": 246784,
+        "sha256": "22b5e51f15d2239c826b1d27f85adb7bab3e679895146039fc3fddf3ae639494"
       },
       {
-        "path": "海鲜水族馆.runtimeconfig.json",
+        "path": "直播水族馆.runtimeconfig.json",
         "size": 525,
         "sha256": "61f950ab74cc9ce3a9e77707aa378924703dc070e89be5933a588d1cafbccbe8"
       },
@@ -38,6 +39,21 @@
         "path": "Accessibility.dll",
         "size": 21288,
         "sha256": "ca47c553bde2c213d73f8f61fa3fd62af9c0fef68f8a5ae7df8f97fec483c786"
+      },
+      {
+        "path": "Assets/alipay-support-qr.png",
+        "size": 124058,
+        "sha256": "560de376f8a4b962d3553a496da6cd6af0bdd6692d51a2198b3136faf07c682c"
+      },
+      {
+        "path": "Assets/app-icon.png",
+        "size": 56066,
+        "sha256": "495e31021dfae970f77bfec88a788208ffb394b76859a0e1e51057be0a3ddf97"
+      },
+      {
+        "path": "Assets/author-avatar.png",
+        "size": 278944,
+        "sha256": "7abfafb88bb39cdee296cc215aa8c22ea45f8e1262c2573e36c7b602ab2c1063"
       },
       {
         "path": "clretwrc.dll",
@@ -58,6 +74,11 @@
         "path": "coreclr.dll",
         "size": 5039416,
         "sha256": "b4375494bb10be11db6134d361df2f39a7a2c7f6696ca8d239a3ed424ce66de7"
+      },
+      {
+        "path": "CoreMessagingXP.dll",
+        "size": 1058616,
+        "sha256": "9adb40e488761a697d390c525c06250dde9f3f2376a7767df3a95268fb8fc303"
       },
       {
         "path": "createdump.exe",
@@ -155,6 +176,11 @@
         "sha256": "a05d04a270f68c8c6d6ea2d23bebf8cd1d5453b26b5442fa54965f90f1c62082"
       },
       {
+        "path": "dcompi.dll",
+        "size": 3204920,
+        "sha256": "2d237ab0c1ad7ee59ee5e77f2f1d7fe970a0f4b73428467278e3b31eae20e41d"
+      },
+      {
         "path": "de/Microsoft.VisualBasic.Forms.resources.dll",
         "size": 25896,
         "sha256": "c2fb53d0ed5c02cead96b0d1cc496598158b22e2454eb8c885b4456aa36cab6f"
@@ -246,13 +272,23 @@
       },
       {
         "path": "DouyuMonitor.Core.dll",
-        "size": 289280,
-        "sha256": "250334df5d95979f442a6acd7a84180711be409bda01cdc798ead570034cf898"
+        "size": 297472,
+        "sha256": "4967c39ba0e5ea90c0aca474d39a7084e5b472a809853659e9160551d0a552e9"
       },
       {
         "path": "DouyuMonitor.Infrastructure.dll",
-        "size": 296448,
-        "sha256": "83a61c987112faedf1ea3402aee917be223fbe909a8793c5257769d0fea7c585"
+        "size": 459264,
+        "sha256": "111a615bd765c2bae787f4477d7a534b362839771b2df73facc5e598d4909543"
+      },
+      {
+        "path": "dwmcorei.dll",
+        "size": 2856760,
+        "sha256": "adbea90d327ccb6155f10d0975af0edea8d5325c2a371290aef4ce6c188a8ef8"
+      },
+      {
+        "path": "DwmSceneI.dll",
+        "size": 2365240,
+        "sha256": "15ac7aefebb975d8d25057d71ada42bbbfbe7ebc51a2a4a4ffb67e62e2736422"
       },
       {
         "path": "es/Microsoft.VisualBasic.Forms.resources.dll",
@@ -466,8 +502,8 @@
       },
       {
         "path": "guide/user-guide.html",
-        "size": 1125833,
-        "sha256": "409fc1e67d50ca7ea9c4ee1e9c3ec816328d09a367f15efbe0e558e3d2c3a469"
+        "size": 1160150,
+        "sha256": "e5dd16edd892ba46d80a09eced00a7e2c4ee5e621ea8c092c58110ab905a981f"
       },
       {
         "path": "hostfxr.dll",
@@ -735,6 +771,11 @@
         "sha256": "63b4b807ca756a38132280c91fc9ce10b2975324e393202c2e129099b22fb73d"
       },
       {
+        "path": "marshal.dll",
+        "size": 509792,
+        "sha256": "5d277b4e52b3e55ce51285e1a10bd6a3adc43a24eeb6e46631c6435da359f63d"
+      },
+      {
         "path": "Microsoft.CSharp.dll",
         "size": 1005840,
         "sha256": "099bc112dc645bc4a1fc453e3b4c1fc93a164bfaf69e84c85c2b6efac0f7faab"
@@ -743,6 +784,91 @@
         "path": "Microsoft.DiaSymReader.Native.amd64.dll",
         "size": 2309152,
         "sha256": "7f8dcf37d9d66eae14c48a79fa2fcd447bd0f38a21be0203a9c4a89398aacf28"
+      },
+      {
+        "path": "Microsoft.DirectManipulation.dll",
+        "size": 657208,
+        "sha256": "327e7724317cdcc586e1920ca3cd7be9ea2f026f0a0d10d117c8b4053b7e15ee"
+      },
+      {
+        "path": "Microsoft.Foundation.winmd",
+        "size": 11576,
+        "sha256": "35e4c26a848e9647451aa1e1dd9e8a4ce733af73f3f51a11c5eb6d9dfc7c7bf8"
+      },
+      {
+        "path": "Microsoft.Graphics.Display.dll",
+        "size": 227128,
+        "sha256": "060f5aa40fd0f3c158f6e0126e4d674fbd9b21a95746c24a21b6ee8d231a0c6a"
+      },
+      {
+        "path": "Microsoft.Graphics.winmd",
+        "size": 21304,
+        "sha256": "7f012e29259684e8c4a6a7405dd0d9c6b5660d4ef9a9531c141dd8c75ab0ad25"
+      },
+      {
+        "path": "Microsoft.InputStateManager.dll",
+        "size": 456504,
+        "sha256": "4ff126f73c8e85eb267bd1a92f4cb3d107755eb7fa979262e2fc8f62c6ce2a6c"
+      },
+      {
+        "path": "Microsoft.InteractiveExperiences.Projection.dll",
+        "size": 1620792,
+        "sha256": "c4f7f580157487433bed354a2dced0492dd3580d6cc577d14f4cdd9ba28dec18"
+      },
+      {
+        "path": "Microsoft.Internal.FrameworkUdk.dll",
+        "size": 931592,
+        "sha256": "beba476cd3d4f6f38bf77799b84be203207963728c36fe4f0ceddae65dd37488"
+      },
+      {
+        "path": "Microsoft.Security.Authentication.OAuth.Projection.dll",
+        "size": 80696,
+        "sha256": "e20ace10ffb7cc236afbf4875af8fdbd3f8cd62d58e8ae438edc43e729c0d6b8"
+      },
+      {
+        "path": "Microsoft.Security.Authentication.OAuth.winmd",
+        "size": 24376,
+        "sha256": "637bf532196b9c7aff95d26b8d625d17beae847ca74d9319c7ec4f5c77baaffa"
+      },
+      {
+        "path": "Microsoft.UI.Composition.OSSupport.dll",
+        "size": 67424,
+        "sha256": "2202a8e54b41a89e8a9cb228f8d615e9b59ccc5743dcfec95293dd1423fa5051"
+      },
+      {
+        "path": "Microsoft.UI.Designer.dll",
+        "size": 120632,
+        "sha256": "591ba3b2f92368ba2007eaa8f85262cd7427ba10605c331b3701fde3dd97dff6"
+      },
+      {
+        "path": "Microsoft.UI.dll",
+        "size": 177976,
+        "sha256": "8876c21a0c071f81e2a45ce48a176ecbe995ca74186f331d89a5805df0fe4c2a"
+      },
+      {
+        "path": "Microsoft.UI.Input.dll",
+        "size": 1595192,
+        "sha256": "9b148577787909e01f074775ffa5f4c553f389abe0ce9817c681e6a62a9aa23e"
+      },
+      {
+        "path": "Microsoft.UI.pri",
+        "size": 101528,
+        "sha256": "bafb8c79dca23d79bbddb7b22baf000dd88803041cf958a68d9e03979cda946c"
+      },
+      {
+        "path": "Microsoft.UI.Windowing.Core.dll",
+        "size": 542560,
+        "sha256": "1ec9c152b37bcbf3f18a0e063b1dc2637ae08aa7c6f3153caebf710fd496709b"
+      },
+      {
+        "path": "Microsoft.UI.Windowing.dll",
+        "size": 550712,
+        "sha256": "dba8853c181aed96df32044070c1cda8b2961137582b5ebd75988d6155d6f16d"
+      },
+      {
+        "path": "Microsoft.UI.winmd",
+        "size": 293728,
+        "sha256": "94a5a1f4fdaa80ac6aba4cd7f442e1424f83b73011ad8c5644dad3355b2f5de3"
       },
       {
         "path": "Microsoft.VisualBasic.Core.dll",
@@ -778,6 +904,226 @@
         "path": "Microsoft.Win32.SystemEvents.dll",
         "size": 96520,
         "sha256": "3c0ce16c85494d232cd6e90a4198d5de7aef9ba55ac31fcbe3e47cbd2f007597"
+      },
+      {
+        "path": "Microsoft.Windows.ApplicationModel.Background.Projection.dll",
+        "size": 25440,
+        "sha256": "c9edc25b6423e998ea5a6c022c98181da20f644e71439591b5640d960f272119"
+      },
+      {
+        "path": "Microsoft.Windows.ApplicationModel.Background.UniversalBGTask.dll",
+        "size": 96056,
+        "sha256": "4d51cbf8109572779c8f3789da137e68925743fdc1cd844bc502ae33e4b0a618"
+      },
+      {
+        "path": "Microsoft.Windows.ApplicationModel.Background.UniversalBGTask.winmd",
+        "size": 12600,
+        "sha256": "164dedec9de1140cf056367b0d7d579109d4183a87e4ba0a5e151f19638e6068"
+      },
+      {
+        "path": "Microsoft.Windows.ApplicationModel.Background.winmd",
+        "size": 13664,
+        "sha256": "9dddde4cc0c52852e091d8186052b881e50833060294cc8b387dbe852c383e17"
+      },
+      {
+        "path": "Microsoft.Windows.ApplicationModel.DynamicDependency.Projection.dll",
+        "size": 43832,
+        "sha256": "80ad9e7e850df3187f1bb224bac7333b00a1df1528b2fa7598126fe8cf108e15"
+      },
+      {
+        "path": "Microsoft.Windows.ApplicationModel.DynamicDependency.winmd",
+        "size": 18232,
+        "sha256": "809b3ad03804dbe4205e89605b6478d871132e2182e71e8ef8be4426ca9207d0"
+      },
+      {
+        "path": "Microsoft.Windows.ApplicationModel.Resources.dll",
+        "size": 158008,
+        "sha256": "beed2aea30b864389d4f8953d0817e5b3b1b1f153f75805e1b93296d6b25db69"
+      },
+      {
+        "path": "Microsoft.Windows.ApplicationModel.Resources.Projection.dll",
+        "size": 68960,
+        "sha256": "17b74cb1751fb093e42ebe3ff43895f14f2e5ac30c7f54bc8f403be0aac16a62"
+      },
+      {
+        "path": "Microsoft.Windows.ApplicationModel.Resources.winmd",
+        "size": 19296,
+        "sha256": "837f1891565fde26d3eecaf2adac1fbc74ca3006204cfbde133c56e72740b524"
+      },
+      {
+        "path": "Microsoft.Windows.ApplicationModel.WindowsAppRuntime.Projection.dll",
+        "size": 48952,
+        "sha256": "2711e525ba4d7a46e0bc43eb03ca52b60cabf700a08a779c4fb1239c8200d3de"
+      },
+      {
+        "path": "Microsoft.Windows.ApplicationModel.WindowsAppRuntime.winmd",
+        "size": 21304,
+        "sha256": "4dce9b3c1668c3d173775dcecb2ece530e4fcde354f9930cc02797d16268ab45"
+      },
+      {
+        "path": "Microsoft.Windows.AppLifecycle.Projection.dll",
+        "size": 40800,
+        "sha256": "89e7675d122a1b47dae26e9b644b71fb320b9f37385c0a7571a368a9685be4b3"
+      },
+      {
+        "path": "Microsoft.Windows.AppLifecycle.winmd",
+        "size": 17248,
+        "sha256": "528c5a5b2f57f66310b290cea2ef4651bcc524712458f547d66eb83648e45db4"
+      },
+      {
+        "path": "Microsoft.Windows.AppNotifications.Builder.Projection.dll",
+        "size": 68448,
+        "sha256": "c2c347aaa6310feef2e79efa7ecaefe7d0b28bbf2538994e3f9120ccb757927c"
+      },
+      {
+        "path": "Microsoft.Windows.AppNotifications.Builder.winmd",
+        "size": 24376,
+        "sha256": "03251167676312236e23cd339f965fe0a8886a19f05a5bda76c1e168bd0459c9"
+      },
+      {
+        "path": "Microsoft.Windows.AppNotifications.Projection.dll",
+        "size": 61752,
+        "sha256": "8aac296486ed8a4aa3f909e9c420b2223abc4654a6775059c5e4cdf2fa190676"
+      },
+      {
+        "path": "Microsoft.Windows.AppNotifications.winmd",
+        "size": 19768,
+        "sha256": "89187348bb321bd678f7256196c04e74cc519b05bf81b52f444307e9b6f7191e"
+      },
+      {
+        "path": "Microsoft.Windows.BadgeNotifications.Projection.dll",
+        "size": 24416,
+        "sha256": "07799a4282e91733be160f33f20c47612fdbc6817da0a4f49ad6e0d92b151444"
+      },
+      {
+        "path": "Microsoft.Windows.BadgeNotifications.winmd",
+        "size": 13152,
+        "sha256": "6eb511e2e5cf233be56944edc13f4e311a8134d353d4dada101c7647fc26dbec"
+      },
+      {
+        "path": "Microsoft.Windows.Foundation.Projection.dll",
+        "size": 30048,
+        "sha256": "7a0bd8c0a2b5e7c00e544b07ca016091cf8d707584a2dc18468d840ee503103b"
+      },
+      {
+        "path": "Microsoft.Windows.Foundation.winmd",
+        "size": 16184,
+        "sha256": "2c6624f561bcefedb72a6da24029193a3176ce94fee275604edfb9b2cfe31e8a"
+      },
+      {
+        "path": "Microsoft.Windows.Globalization.winmd",
+        "size": 12640,
+        "sha256": "7001b8d0025436529f0806b26cba772d4bc8598370c78433aef1e3e8bc5cff42"
+      },
+      {
+        "path": "Microsoft.Windows.Management.Deployment.Projection.dll",
+        "size": 172856,
+        "sha256": "fd8c1360526e5e17071b16808682843e2b80a976c844eecdc467a3c86b785763"
+      },
+      {
+        "path": "Microsoft.Windows.Management.Deployment.winmd",
+        "size": 42296,
+        "sha256": "ef4d5a22d6af70a56d46133d63d68ff754b294cdf841888ee1a54896f1fdcc6d"
+      },
+      {
+        "path": "Microsoft.Windows.Media.Capture.Projection.dll",
+        "size": 37688,
+        "sha256": "2c0b6a2c797a2abf22e412514a7a44e310bf6b92589c890bcbb17806f1193774"
+      },
+      {
+        "path": "Microsoft.Windows.Media.Capture.winmd",
+        "size": 16184,
+        "sha256": "8495123c84de6a797a5b79503ade1c3a27e31e0c55dc035ba5f727fd877365ea"
+      },
+      {
+        "path": "Microsoft.Windows.PushNotifications.Projection.dll",
+        "size": 44856,
+        "sha256": "0a683370d4959d70c4eaf21ab0857723de66d80258ed838c7231d44282b56f7e"
+      },
+      {
+        "path": "Microsoft.Windows.PushNotifications.winmd",
+        "size": 15712,
+        "sha256": "1a3292e91f091f0a1baf7c18e5d5691d609e2e820f8e2069e36158d397468694"
+      },
+      {
+        "path": "Microsoft.Windows.SDK.NET.dll",
+        "size": 24700960,
+        "sha256": "1ae8a29bb07abe1e131921dd416b7cb7688005c544e7341a60fb5f2a66ad0d1d"
+      },
+      {
+        "path": "Microsoft.Windows.Security.AccessControl.Projection.dll",
+        "size": 21304,
+        "sha256": "0303405e42a38fd607ba7a6041f66f9b17845a3f0a6d7878b982192e274b6f71"
+      },
+      {
+        "path": "Microsoft.Windows.Security.AccessControl.winmd",
+        "size": 12600,
+        "sha256": "b86aa77cef6363384c8b7125e35f63eb83caa63d043f5105d71b519922bbe3fb"
+      },
+      {
+        "path": "Microsoft.Windows.Storage.Pickers.Projection.dll",
+        "size": 68448,
+        "sha256": "7aa2848538f8452e4229a6db4ceccdf81d5467de0093525da3a0e8527df5ffbc"
+      },
+      {
+        "path": "Microsoft.Windows.Storage.Pickers.winmd",
+        "size": 19768,
+        "sha256": "823d9229eaa2047092821ea101346fbe0d79ae2b1a8127e266547582d3b0e3a4"
+      },
+      {
+        "path": "Microsoft.Windows.Storage.Projection.dll",
+        "size": 38240,
+        "sha256": "79fbce34e1633a4463e936eb0eda5202ad289be610a993959e0152d6998aa3db"
+      },
+      {
+        "path": "Microsoft.Windows.Storage.winmd",
+        "size": 16184,
+        "sha256": "0ec6284b03a0f64f3bb69909fbfa1fa8891a1eb70d499e25cc32e21ca65c37b5"
+      },
+      {
+        "path": "Microsoft.Windows.System.Power.Projection.dll",
+        "size": 35128,
+        "sha256": "d6ee39e55e67ad812738b4591479f4f48115406d89b46d52edb7035081839167"
+      },
+      {
+        "path": "Microsoft.Windows.System.Power.winmd",
+        "size": 17248,
+        "sha256": "09f05891b50afa4c3907220d3edc2ea0c8a4b4f000b1c521e2954456c0c636b1"
+      },
+      {
+        "path": "Microsoft.Windows.System.Projection.dll",
+        "size": 28472,
+        "sha256": "8bd2160a90894ccf237d7b8934fa572f78a02ef8e9e9ae55842ad03cdb790452"
+      },
+      {
+        "path": "Microsoft.Windows.System.winmd",
+        "size": 13624,
+        "sha256": "e1394ecd6a8dd01bbe4ef038b46ad06a38766bb5d2b89d9dbc5d5fbeaa1c3bb2"
+      },
+      {
+        "path": "Microsoft.WindowsAppRuntime.Bootstrap.dll",
+        "size": 394040,
+        "sha256": "07f219d022f5b2fdc75f455d6dc7df35ebdcfcb2dcd0a14c59827c64eefc9b70"
+      },
+      {
+        "path": "Microsoft.WindowsAppRuntime.Bootstrap.Net.dll",
+        "size": 16696,
+        "sha256": "af50d0da4c5a13991a9819bfb3fbbf08d7aa629adf3a57fc2cb73403ba9cc441"
+      },
+      {
+        "path": "Microsoft.WindowsAppRuntime.dll",
+        "size": 2603832,
+        "sha256": "c0b35816a77e0e6a50172dbf39ec295238e56852f54786ec61581f5d998788b3"
+      },
+      {
+        "path": "Microsoft.WindowsAppRuntime.pri",
+        "size": 11296,
+        "sha256": "0ec8d17e6ce296ba51aa539f8f3fc1b93b8bb53c20c82ba440f07e5cd1ce081e"
+      },
+      {
+        "path": "MRM.dll",
+        "size": 288608,
+        "sha256": "4b2c89fb10f97b00546461fcd55a10d7dcc69b5e9d352187c32fa5f0b32ecaac"
       },
       {
         "path": "mscordaccore_amd64_amd64_8.0.1124.51707.dll",
@@ -1100,9 +1446,19 @@
         "sha256": "af95bd7a1e0df002124526268041d24e61778cab857f88d4016445092fedf870"
       },
       {
+        "path": "PushNotificationsLongRunningTask.ProxyStub.dll",
+        "size": 33120,
+        "sha256": "8055aa11ca7926f0796a8c4eef03013243e17d33bf343c30f8dfaee54f214621"
+      },
+      {
         "path": "ReachFramework.dll",
         "size": 1603880,
         "sha256": "3a3e191d33344a61230491ea53d5d5d43c9ce0a28f5b1f33fd191aca1dfc63d3"
+      },
+      {
+        "path": "RestartAgent.exe",
+        "size": 77624,
+        "sha256": "55c530192868b4cf4dba60a7cc90a6eed854bd4c8371252384be9095447c4b67"
       },
       {
         "path": "ru/Microsoft.VisualBasic.Forms.resources.dll",
@@ -2136,8 +2492,8 @@
       },
       {
         "path": "THIRD-PARTY-NOTICES.md",
-        "size": 2243,
-        "sha256": "1dc8ac149bf8fc4da8d4d600bb2bb3043e67409876105097cb8d5751a007320e"
+        "size": 2736,
+        "sha256": "e2e3640da7cc856aa0e6a7e119915ae633cd7e9185c29f5775f11924c4c416db"
       },
       {
         "path": "tr/Microsoft.VisualBasic.Forms.resources.dll",
@@ -2266,18 +2622,18 @@
       },
       {
         "path": "Vortice.DirectX.dll",
-        "size": 274944,
-        "sha256": "5e1da8c22e0a33cc24078965c80ca4093a2c806aa580076441eb0f27ef38b56f"
+        "size": 282112,
+        "sha256": "e4d202a7e56f5365c7c8a646b2d949431a656314008738ed1a53868ee8959ce2"
       },
       {
         "path": "Vortice.DXGI.dll",
-        "size": 91136,
-        "sha256": "616983bed0d84c6ad499d1963edf12bb5bfe701e60a3ba860d1768516bf56d20"
+        "size": 103424,
+        "sha256": "7fbc745e749f1077b204e68acf6dd54404d391edce4ad538c35ab0b23beca1ef"
       },
       {
         "path": "Vortice.Mathematics.dll",
-        "size": 125440,
-        "sha256": "8eb0ba81251cf90924397a5c48589c160020d99166b76b3af1f58009e02a2566"
+        "size": 127488,
+        "sha256": "7e39d23ce33cad021e197739ddadcda386478a1098810aa6b3138984f94d59f6"
       },
       {
         "path": "WindowsBase.dll",
@@ -2290,9 +2646,19 @@
         "sha256": "4b1d73d07e89ea0a2794e02c2b4072e9c0acfb7e08355f0d59e3f27a6559dbb8"
       },
       {
+        "path": "WinRT.Runtime.dll",
+        "size": 520224,
+        "sha256": "7f72d3817130bf63c602a10636b7a9d8b1cb718e1286146a8f6e21f88aadf4b5"
+      },
+      {
         "path": "wpfgfx_cor3.dll",
         "size": 1964344,
         "sha256": "3a9b23244309599ec9ae6f327580d063bafc99192753229dcb3be133e05c849c"
+      },
+      {
+        "path": "wuceffectsi.dll",
+        "size": 497504,
+        "sha256": "2ae36834445cbbe2d084e64aa3d0f40dfbbfec9f3a77b5b4da9f5bc7137fb6d5"
       },
       {
         "path": "zh-Hans/Microsoft.VisualBasic.Forms.resources.dll",
@@ -2467,23 +2833,23 @@
     ]
   },
   "symbols": {
-    "archivePath": "artifacts/symbols/1.3.4/f9ca2955551f196fc1106de3e1a8f2f6bef0627f",
+    "archivePath": "artifacts/symbols/1.5.0/867c48b36e67df541db5ff03e0b3a32c2b64d16a",
     "fileCount": 3,
     "files": [
       {
-        "path": "海鲜水族馆.pdb",
-        "size": 268260,
-        "sha256": "5f849e2250c8a99a7bd819151a4dfd2ed02bcdbe73e742fbb2ca505bed96bb6b"
+        "path": "直播水族馆.pdb",
+        "size": 289164,
+        "sha256": "571860536c3e0d0faccd6570d340e43d8f04bd4ff91aaad2b5961bf921d8d95e"
       },
       {
         "path": "DouyuMonitor.Core.pdb",
-        "size": 81660,
-        "sha256": "b60a0337e6e9df42f53796b485be1971a4c2220e5689acb4f9a8a4109261858a"
+        "size": 83352,
+        "sha256": "3548410b9680460a3668876a01c6c8176785a255f39c18fbe17c89f46385dc31"
       },
       {
         "path": "DouyuMonitor.Infrastructure.pdb",
-        "size": 75896,
-        "sha256": "dba7f19d61d3a89661e1e1b6dde72d1540370202b28f27ee307d8a309db77b47"
+        "size": 112172,
+        "sha256": "042d3e1fd97e037ecf95de1b7b49200cd16b37a8fa0c2c16d5b5bb62eafd7c2c"
       }
     ]
   }

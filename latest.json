@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "latestVersion": "1.3.4",
-  "publishedAt": "2026-07-27",
-  "releasePage": "https://gitee.com/ntrmao/DouyuMonitor-Releases/releases#release-v1.3.4",
-  "summary": "修复房间列表拖拽手柄无法调整房间顺序的问题。"
+  "latestVersion": "1.5.0",
+  "publishedAt": "2026-08-24",
+  "releasePage": "https://gitee.com/ntrmao/DouyuMonitor-Releases/releases#release-v1.5.0",
+  "summary": "软件更名为“直播水族馆”，并使用“多平台直播监看”作为产品副标题。"
 }

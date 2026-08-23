@@ -1,27 +1,29 @@
-# 海鲜水族馆
+# 直播水族馆
 
-![海鲜水族馆图标](assets/app-icon.png)
+![直播水族馆图标](assets/app-icon.png)
+
+> 多平台直播监看
 
 面向 Windows 10/11 x64 的多房间斗鱼直播监控工具。单个窗口最多同时监控 16 个无需登录即可访问的公开直播间，适合同时关注多个主播、赛事或活动现场。
 
-> 本仓库是海鲜水族馆的官方发行仓库，只提供安装程序、使用说明和版本校验信息，不公开项目源码。
+> 本仓库是直播水族馆的官方发行仓库，只提供安装程序、使用说明和版本校验信息，不公开项目源码。
 
 ## 下载
 
-请从 [Releases](https://github.com/maofanyi/DouyuMonitor-Releases/releases/latest) 下载最新的 `DouyuMonitor-Setup-1.3.4.exe`。
+请从 [Releases](https://github.com/maofanyi/DouyuMonitor-Releases/releases/latest) 下载最新的 `DouyuMonitor-Setup-1.5.0.exe`。
 
-当前版本：**1.3.4**
+当前版本：**1.5.0**
 
 仅应信任本仓库发布的安装程序。软件目前没有 Authenticode 代码签名，Windows 首次运行时可能显示未知发布者；请在运行前核对 SHA-256。
 
 ```powershell
-Get-FileHash -Algorithm SHA256 '.\DouyuMonitor-Setup-1.3.4.exe'
+Get-FileHash -Algorithm SHA256 '.\DouyuMonitor-Setup-1.5.0.exe'
 ```
 
 安装包 SHA-256：
 
 ```text
-00954c2d143d69a219abefedfbac1096a58786a4076d7f1b9a4dfe426713a339
+18cb253fd3bc8283e470b9255d58b5640fdf8a7c7b4a834a6e407fa03950fec7
 ```
 
 ## 主要功能
