@@ -10,20 +10,20 @@
 
 ## 下载
 
-请从 [Releases](https://github.com/maofanyi/DouyuMonitor-Releases/releases/latest) 下载最新的 `DouyuMonitor-Setup-1.5.0.exe`。
+请从 [Releases](https://github.com/maofanyi/DouyuMonitor-Releases/releases/latest) 下载最新的 `DouyuMonitor-Setup-1.6.0.exe`。
 
-当前版本：**1.5.0**
+当前版本：**1.6.0**
 
 仅应信任本仓库发布的安装程序。软件目前没有 Authenticode 代码签名，Windows 首次运行时可能显示未知发布者；请在运行前核对 SHA-256。
 
 ```powershell
-Get-FileHash -Algorithm SHA256 '.\DouyuMonitor-Setup-1.5.0.exe'
+Get-FileHash -Algorithm SHA256 '.\DouyuMonitor-Setup-1.6.0.exe'
 ```
 
 安装包 SHA-256：
 
 ```text
-18cb253fd3bc8283e470b9255d58b5640fdf8a7c7b4a834a6e407fa03950fec7
+efdd0b6b77c1e196cf6ce39429e412cde90bab0d0030726f92965f7ef6d63e5b
 ```
 
 ## 主要功能
