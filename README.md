@@ -14,20 +14,20 @@
 
 ## 下载
 
-请从 [Releases](https://github.com/maofanyi/DouyuMonitor-Releases/releases/latest) 下载最新的 `DouyuMonitor-Setup-1.7.0.exe`。
+请从 [Releases](https://github.com/maofanyi/DouyuMonitor-Releases/releases/latest) 下载最新的 `LiveAquarium-Setup-1.7.1.exe`。
 
-当前版本：**1.7.0**
+当前版本：**1.7.1**
 
 仅应信任本仓库发布的安装程序。软件目前没有 Authenticode 代码签名，Windows 首次运行时可能显示未知发布者；请在运行前核对 SHA-256。
 
 ```powershell
-Get-FileHash -Algorithm SHA256 '.\DouyuMonitor-Setup-1.7.0.exe'
+Get-FileHash -Algorithm SHA256 '.\LiveAquarium-Setup-1.7.1.exe'
 ```
 
 安装包 SHA-256：
 
 ```text
-2d166943a9186d7b9d1275c5b85cdea2de80fa310ee6fcdfa25a8f09d55e4c98
+0085b1a75449d828d17a600c97e0fb98c5adbba038540738a8a7ef3052180c49
 ```
 
 ## 主要功能

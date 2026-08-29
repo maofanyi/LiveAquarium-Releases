@@ -14,20 +14,20 @@ The current release supports Douyu, Bilibili, Douyin, Huya, Twitch, and YouTube.
 
 ## Download
 
-Download the latest `DouyuMonitor-Setup-1.7.0.exe` from [GitHub Releases](https://github.com/maofanyi/DouyuMonitor-Releases/releases/latest).
+Download the latest `LiveAquarium-Setup-1.7.1.exe` from [GitHub Releases](https://github.com/maofanyi/DouyuMonitor-Releases/releases/latest).
 
-Current version: **1.7.0**
+Current version: **1.7.1**
 
 Only trust installers published by this repository. The application does not currently have an Authenticode code signature, so Windows may show an unknown-publisher warning on first launch. Verify the SHA-256 hash before running the installer.
 
 ```powershell
-Get-FileHash -Algorithm SHA256 '.\DouyuMonitor-Setup-1.7.0.exe'
+Get-FileHash -Algorithm SHA256 '.\LiveAquarium-Setup-1.7.1.exe'
 ```
 
 Installer SHA-256:
 
 ```text
-2d166943a9186d7b9d1275c5b85cdea2de80fa310ee6fcdfa25a8f09d55e4c98
+0085b1a75449d828d17a600c97e0fb98c5adbba038540738a8a7ef3052180c49
 ```
 
 ## Features

@@ -1,2 +1,2 @@
-2d166943a9186d7b9d1275c5b85cdea2de80fa310ee6fcdfa25a8f09d55e4c98  DouyuMonitor-Setup-1.7.0.exe
-3c537717dbac245b169558831fc4d640c0951e525fa82eb5425a9473cb6ed36a  release-manifest.json
+0085b1a75449d828d17a600c97e0fb98c5adbba038540738a8a7ef3052180c49  LiveAquarium-Setup-1.7.1.exe
+d5fabc59061e7d26d39aea31c601076d8f8c18ed3a4fc9b9a838697cba470490  release-manifest.json
