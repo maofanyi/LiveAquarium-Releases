@@ -14,7 +14,7 @@ The current release supports Douyu, Bilibili, Douyin, Huya, Twitch, and YouTube.
 
 ## Download
 
-Download the latest `LiveAquarium-Setup-1.7.1.exe` from [GitHub Releases](https://github.com/maofanyi/DouyuMonitor-Releases/releases/latest).
+Download the latest `LiveAquarium-Setup-1.7.1.exe` from [GitHub Releases](https://github.com/maofanyi/LiveAquarium-Releases/releases/latest).
 
 Current version: **1.7.1**
 
@@ -43,7 +43,7 @@ Installer SHA-256:
 
 ## User Guide
 
-- [Illustrated online guide](https://maofanyi.github.io/DouyuMonitor-Releases/)
+- [Illustrated online guide](https://maofanyi.github.io/LiveAquarium-Releases/)
 - [Chinese text guide](docs/使用说明.md)
 - [Illustrated offline guide](docs/user-guide.html) — download the repository and open it in a browser
 
