@@ -1,40 +1,44 @@
 # 直播水族馆
 
+[简体中文](README.md) | [English](README.en-US.md)
+
 ![直播水族馆图标](assets/app-icon.png)
 
 > 多平台直播监看
 
-面向 Windows 10/11 x64 的多房间斗鱼直播监控工具。单个窗口最多同时监控 16 个无需登录即可访问的公开直播间，适合同时关注多个主播、赛事或活动现场。
+面向 Windows 10/11 x64 的多房间直播监看工具。单个窗口最多同时监控 16 个无需登录即可访问的公开直播间，适合同时关注多个主播、赛事或活动现场。
+
+当前版本支持斗鱼、Bilibili、抖音、虎牙、Twitch 和 YouTube。
 
 > 本仓库是直播水族馆的官方发行仓库，只提供安装程序、使用说明和版本校验信息，不公开项目源码。
 
 ## 下载
 
-请从 [Releases](https://github.com/maofanyi/DouyuMonitor-Releases/releases/latest) 下载最新的 `DouyuMonitor-Setup-1.6.0.exe`。
+请从 [Releases](https://github.com/maofanyi/DouyuMonitor-Releases/releases/latest) 下载最新的 `DouyuMonitor-Setup-1.7.0.exe`。
 
-当前版本：**1.6.0**
+当前版本：**1.7.0**
 
 仅应信任本仓库发布的安装程序。软件目前没有 Authenticode 代码签名，Windows 首次运行时可能显示未知发布者；请在运行前核对 SHA-256。
 
 ```powershell
-Get-FileHash -Algorithm SHA256 '.\DouyuMonitor-Setup-1.6.0.exe'
+Get-FileHash -Algorithm SHA256 '.\DouyuMonitor-Setup-1.7.0.exe'
 ```
 
 安装包 SHA-256：
 
 ```text
-efdd0b6b77c1e196cf6ce39429e412cde90bab0d0030726f92965f7ef6d63e5b
+2d166943a9186d7b9d1275c5b85cdea2de80fa310ee6fcdfa25a8f09d55e4c98
 ```
 
 ## 主要功能
 
-- 最多同时监控 16 个斗鱼公开直播间。
+- 最多同时监控 16 个公开直播间，粘贴链接后自动识别支持的平台。
 - 自由拖动、交换和调整监控画面尺寸，保存多套监控方案。
 - 支持单路音频焦点以及 Shift 多选的多路音频模式。
 - 支持实时弹幕、全局与单房间开关，以及精简、普通和 Max 智能显示策略。
 - 支持贵宾人数常驻显示、短时间暴涨提醒和观看休息提醒。
 - 使用 FFmpeg、D3D11VA 和 WPF D3DImage，安装包自带所需 .NET 与 FFmpeg 运行库。
-- 房间列表、布局、音量和窗口状态保存在本机，不需要登录斗鱼账号。
+- 房间列表、布局、音量和窗口状态保存在本机，不保存平台账号、Cookie 或密码。
 
 ## 使用说明
 
@@ -55,7 +59,7 @@ efdd0b6b77c1e196cf6ce39429e412cde90bab0d0030726f92965f7ef6d63e5b
 - 设置：`%LocalAppData%\DouyuMonitor\settings.json`
 - 日志：`%LocalAppData%\DouyuMonitor\logs\monitor-YYYYMMDD.log`
 - 卸载不会自动删除上述设置和日志。
-- 软件不保存斗鱼账号、Cookie 或密码。
+- 软件不保存平台账号、Cookie 或密码。
 
 ## 问题反馈与安全提示
 

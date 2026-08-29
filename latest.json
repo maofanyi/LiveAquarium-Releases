@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "latestVersion": "1.6.0",
-  "publishedAt": "2026-08-25",
-  "releasePage": "https://gitee.com/ntrmao/DouyuMonitor-Releases/releases#release-v1.6.0",
-  "summary": "新增虎牙直播间播放、状态刷新和普通文本弹幕，并在临时播放地址失效后自动重新解析恢复。",
+  "latestVersion": "1.7.0",
+  "publishedAt": "2026-08-29",
+  "releasePage": "https://gitee.com/ntrmao/DouyuMonitor-Releases/releases#release-v1.7.0",
+  "summary": "新增 Twitch 与 YouTube 直播间，支持链接识别、持续监控、自适应清晰度和实时弹幕。",
   "installer": {
-    "fileName": "DouyuMonitor-Setup-1.6.0.exe",
-    "size": 91465367,
-    "sha256": "efdd0b6b77c1e196cf6ce39429e412cde90bab0d0030726f92965f7ef6d63e5b",
+    "fileName": "DouyuMonitor-Setup-1.7.0.exe",
+    "size": 108855971,
+    "sha256": "2d166943a9186d7b9d1275c5b85cdea2de80fa310ee6fcdfa25a8f09d55e4c98",
     "downloadUrls": [
-      "https://gitee.com/ntrmao/DouyuMonitor-Releases/releases/download/v1.6.0/DouyuMonitor-Setup-1.6.0.exe",
-      "https://github.com/maofanyi/DouyuMonitor-Releases/releases/download/v1.6.0/DouyuMonitor-Setup-1.6.0.exe"
+      "https://gitee.com/ntrmao/DouyuMonitor-Releases/releases/download/v1.7.0/DouyuMonitor-Setup-1.7.0.exe",
+      "https://github.com/maofanyi/DouyuMonitor-Releases/releases/download/v1.7.0/DouyuMonitor-Setup-1.7.0.exe"
     ]
   }
 }
