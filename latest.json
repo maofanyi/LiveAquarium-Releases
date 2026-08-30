@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "latestVersion": "1.8.2",
+  "latestVersion": "1.8.3",
   "publishedAt": "2026-08-30",
-  "releasePage": "https://gitee.com/ntrmao/DouyuMonitor-Releases/releases#release-v1.8.2",
-  "summary": "GitHub 继续提供内置 yt-dlp 的完整安装包；Gitee 新增小于 100 MB 的轻量安装包，首次使用 YouTube 或 Twitch 时按需下载并校验解析组件。",
+  "releasePage": "https://gitee.com/ntrmao/DouyuMonitor-Releases/releases#release-v1.8.3",
+  "summary": "修复移除 YouTube 或 Twitch 直播间后，旧布局位置仍被占用，导致新直播间无法拖入并显示红框的问题。",
   "installer": {
-    "fileName": "LiveAquarium-Setup-1.8.2.exe",
-    "size": 109141478,
-    "sha256": "fcf0966cc65858bbdcca1fc3d86ffbf9d4c7ddb1bf29221ff65efede1e1e45aa",
+    "fileName": "LiveAquarium-Setup-1.8.3.exe",
+    "size": 109119168,
+    "sha256": "28cde87031d40a9c7b5062aec8b64aba384e3ed72d63dc8d363e295f3df240eb",
     "downloadUrls": [
-      "https://github.com/maofanyi/DouyuMonitor-Releases/releases/download/v1.8.2/LiveAquarium-Setup-1.8.2.exe"
+      "https://github.com/maofanyi/DouyuMonitor-Releases/releases/download/v1.8.3/LiveAquarium-Setup-1.8.3.exe"
     ]
   }
 }

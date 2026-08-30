@@ -14,28 +14,28 @@
 
 ## 下载
 
-请从 [Releases](https://github.com/maofanyi/LiveAquarium-Releases/releases/latest) 下载最新的 `LiveAquarium-Setup-1.8.2.exe`。
+请从 [Releases](https://github.com/maofanyi/LiveAquarium-Releases/releases/latest) 下载最新的 `LiveAquarium-Setup-1.8.3.exe`。
 
-Gitee Releases 提供体积更小的 `LiveAquarium-Setup-1.8.2-Lite.exe`。轻量版首次使用 YouTube 或 Twitch 时会在后台下载并校验 `yt-dlp` 解析组件；其他功能与完整版一致。
+Gitee Releases 提供体积更小的 `LiveAquarium-Setup-1.8.3-Lite.exe`。轻量版首次使用 YouTube 或 Twitch 时会在后台下载并校验 `yt-dlp` 解析组件；其他功能与完整版一致。
 
-当前版本：**1.8.2**
+当前版本：**1.8.3**
 
 仅应信任本仓库发布的安装程序。软件目前没有 Authenticode 代码签名，Windows 首次运行时可能显示未知发布者；请在运行前核对 SHA-256。
 
 ```powershell
-Get-FileHash -Algorithm SHA256 '.\LiveAquarium-Setup-1.8.2.exe'
+Get-FileHash -Algorithm SHA256 '.\LiveAquarium-Setup-1.8.3.exe'
 ```
 
 安装包 SHA-256：
 
 ```text
-fcf0966cc65858bbdcca1fc3d86ffbf9d4c7ddb1bf29221ff65efede1e1e45aa
+28cde87031d40a9c7b5062aec8b64aba384e3ed72d63dc8d363e295f3df240eb
 ```
 
 Gitee 轻量安装包 SHA-256：
 
 ```text
-f7f482b5c31d5859f48be93832135f5d3335cc67dda64eb3abd6eee8609e75d3
+60bb763c54dbe4f0e577a416e0e159645f8c51851ebc3f51b327106d497ee5a5
 ```
 
 ## 主要功能
