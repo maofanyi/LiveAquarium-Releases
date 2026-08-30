@@ -14,20 +14,20 @@
 
 ## 下载
 
-请从 [Releases](https://github.com/maofanyi/LiveAquarium-Releases/releases/latest) 下载最新的 `LiveAquarium-Setup-1.7.1.exe`。
+请从 [Releases](https://github.com/maofanyi/LiveAquarium-Releases/releases/latest) 下载最新的 `LiveAquarium-Setup-1.8.0.exe`。
 
-当前版本：**1.7.1**
+当前版本：**1.8.0**
 
 仅应信任本仓库发布的安装程序。软件目前没有 Authenticode 代码签名，Windows 首次运行时可能显示未知发布者；请在运行前核对 SHA-256。
 
 ```powershell
-Get-FileHash -Algorithm SHA256 '.\LiveAquarium-Setup-1.7.1.exe'
+Get-FileHash -Algorithm SHA256 '.\LiveAquarium-Setup-1.8.0.exe'
 ```
 
 安装包 SHA-256：
 
 ```text
-0085b1a75449d828d17a600c97e0fb98c5adbba038540738a8a7ef3052180c49
+05c556f684e0d2c73b14383ffdb1d20dcfd165eaba9772e43c1c044c32407ec7
 ```
 
 ## 主要功能
@@ -58,7 +58,10 @@ Get-FileHash -Algorithm SHA256 '.\LiveAquarium-Setup-1.7.1.exe'
 
 - 设置：`%LocalAppData%\DouyuMonitor\settings.json`
 - 日志：`%LocalAppData%\DouyuMonitor\logs\monitor-YYYYMMDD.log`
-- 卸载不会自动删除上述设置和日志。
+- 匿名统计：软件使用随机生成并持久化的安装标识，每天一次发送使用时长、平台与布局功能汇总及 Windows 区域设置对应的两位国家/地区代码。普通错误仅在本地聚合；明确致命错误每安装每天最多自动发送一条，用户也可在诊断窗口主动发送最多 5 个脱敏聚合错误。
+- Sentry 可保存遥测请求的连接来源 IP，并据此提供国家/地区信息；应用不会把 IP 放入遥测字段，也不发送房间号、主播名称、直播标题、直播地址、弹幕、Windows 用户名、硬件标识、完整本地路径、完整设置或完整日志。
+- 未发送统计最多在本地保留 14 天；清除本地应用数据会同时重置匿名安装标识。
+- 卸载不会自动删除上述本地数据。
 - 软件不保存平台账号、Cookie 或密码。
 
 ## 问题反馈与安全提示

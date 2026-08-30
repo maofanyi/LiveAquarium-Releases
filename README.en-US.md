@@ -14,20 +14,20 @@ The current release supports Douyu, Bilibili, Douyin, Huya, Twitch, and YouTube.
 
 ## Download
 
-Download the latest `LiveAquarium-Setup-1.7.1.exe` from [GitHub Releases](https://github.com/maofanyi/LiveAquarium-Releases/releases/latest).
+Download the latest `LiveAquarium-Setup-1.8.0.exe` from [GitHub Releases](https://github.com/maofanyi/LiveAquarium-Releases/releases/latest).
 
-Current version: **1.7.1**
+Current version: **1.8.0**
 
 Only trust installers published by this repository. The application does not currently have an Authenticode code signature, so Windows may show an unknown-publisher warning on first launch. Verify the SHA-256 hash before running the installer.
 
 ```powershell
-Get-FileHash -Algorithm SHA256 '.\LiveAquarium-Setup-1.7.1.exe'
+Get-FileHash -Algorithm SHA256 '.\LiveAquarium-Setup-1.8.0.exe'
 ```
 
 Installer SHA-256:
 
 ```text
-0085b1a75449d828d17a600c97e0fb98c5adbba038540738a8a7ef3052180c49
+05c556f684e0d2c73b14383ffdb1d20dcfd165eaba9772e43c1c044c32407ec7
 ```
 
 ## Features
@@ -61,7 +61,10 @@ The detailed guides are currently available in Chinese. English documentation wi
 
 - Settings: `%LocalAppData%\DouyuMonitor\settings.json`
 - Logs: `%LocalAppData%\DouyuMonitor\logs\monitor-YYYYMMDD.log`
-- Uninstalling the application does not automatically remove these settings or logs.
+- Anonymous statistics use a randomly generated persistent installation identifier and send one daily summary of usage time, platform and layout features, and the two-letter country/region code from Windows regional settings. Ordinary errors stay aggregated locally; at most one clearly fatal error is sent automatically per installation per day, and users may explicitly send up to 5 redacted aggregate errors from Diagnostics.
+- Sentry may store the telemetry request's connection source IP to provide country/region information. The app does not place IP addresses in telemetry fields and never sends room IDs, streamer names, live titles, stream URLs, danmaku, Windows usernames, hardware identifiers, full local paths, complete settings, or complete logs.
+- Unsent statistics are kept locally for up to 14 days. Clearing local application data also resets the anonymous installation identifier.
+- Uninstalling the application does not automatically remove this local data.
 - The application does not store platform accounts, cookies, or passwords.
 
 ## Bug Reports and Security

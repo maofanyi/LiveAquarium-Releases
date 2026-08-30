@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "latestVersion": "1.7.1",
-  "publishedAt": "2026-08-29",
-  "releasePage": "https://gitee.com/ntrmao/DouyuMonitor-Releases/releases#release-v1.7.1",
-  "summary": "为发行仓库更名增加新旧 GitHub 更新地址兼容，并将公开安装包文件名更新为 LiveAquarium。",
+  "latestVersion": "1.8.0",
+  "publishedAt": "2026-08-30",
+  "releasePage": "https://gitee.com/ntrmao/DouyuMonitor-Releases/releases#release-v1.8.0",
+  "summary": "新增每日匿名使用汇总；普通错误仅在本地按天聚合，明确致命错误每天最多自动发送一条，也可在诊断窗口主动发送脱敏诊断报告。",
   "installer": {
-    "fileName": "LiveAquarium-Setup-1.7.1.exe",
-    "size": 108842320,
-    "sha256": "0085b1a75449d828d17a600c97e0fb98c5adbba038540738a8a7ef3052180c49",
+    "fileName": "LiveAquarium-Setup-1.8.0.exe",
+    "size": 109135839,
+    "sha256": "05c556f684e0d2c73b14383ffdb1d20dcfd165eaba9772e43c1c044c32407ec7",
     "downloadUrls": [
-      "https://github.com/maofanyi/DouyuMonitor-Releases/releases/download/v1.7.1/LiveAquarium-Setup-1.7.1.exe"
+      "https://github.com/maofanyi/DouyuMonitor-Releases/releases/download/v1.8.0/LiveAquarium-Setup-1.8.0.exe"
     ]
   }
 }
