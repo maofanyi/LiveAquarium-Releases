@@ -14,20 +14,20 @@ The current release supports Douyu, Bilibili, Douyin, Huya, Twitch, and YouTube.
 
 ## Download
 
-Download the latest `LiveAquarium-Setup-1.8.0.exe` from [GitHub Releases](https://github.com/maofanyi/LiveAquarium-Releases/releases/latest).
+Download the latest `LiveAquarium-Setup-1.8.1.exe` from [GitHub Releases](https://github.com/maofanyi/LiveAquarium-Releases/releases/latest).
 
-Current version: **1.8.0**
+Current version: **1.8.1**
 
 Only trust installers published by this repository. The application does not currently have an Authenticode code signature, so Windows may show an unknown-publisher warning on first launch. Verify the SHA-256 hash before running the installer.
 
 ```powershell
-Get-FileHash -Algorithm SHA256 '.\LiveAquarium-Setup-1.8.0.exe'
+Get-FileHash -Algorithm SHA256 '.\LiveAquarium-Setup-1.8.1.exe'
 ```
 
 Installer SHA-256:
 
 ```text
-05c556f684e0d2c73b14383ffdb1d20dcfd165eaba9772e43c1c044c32407ec7
+4d3355e316fa15904a9189dd2f5baf52fa5d1c67437d7011f3c54ec4b97133be
 ```
 
 ## Features

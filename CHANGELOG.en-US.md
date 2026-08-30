@@ -2,15 +2,14 @@
 
 [简体中文](CHANGELOG.md) | [English](CHANGELOG.en-US.md)
 
-## 1.8.0 (2026-08-30)
+## 1.8.1 (2026-08-30)
 
-### Anonymous Statistics and Reliability
+### Anonymous Metrics and Privacy Transparency
 
-- Added one daily anonymous usage summary. Ordinary errors stay aggregated locally; at most one clearly fatal error is sent automatically each day, and users can explicitly send a redacted report from Diagnostics.
-- Statistics use a random installation identifier and the country/region code from Windows regional settings. Sentry may store the connection source IP to provide country/region information, but the app never sends room IDs, streamer names, titles, stream URLs, danmaku, Windows usernames, hardware identifiers, or full local paths.
-- Unsent data is stored separately on the local device for up to 14 days; network, disk, or telemetry failures never block startup or playback.
+- Added one-time anonymous installation and daily active counts so cumulative installations, daily users, and daily usage duration can be measured separately.
+- Improved metric units, deduplication, and retry behavior. Ordinary errors are still uploaded only when the user explicitly sends a diagnostic report, with a clearly limited automatic path for serious failures.
 
-### Playback Performance
+### Language and Installation Experience
 
-- Cached catalog avatars to avoid repeated requests when switching tabs.
-- Reduced background stream quality and throttled background playback while fullscreen, with automatic recovery after exiting fullscreen.
+- First launch now selects Simplified Chinese or English from the Windows UI language without overriding an existing language preference.
+- The installer now shows a bilingual anonymous statistics notice covering summary data, IP-based country or region reporting, prohibited data, and error-reporting behavior.

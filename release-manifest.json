@@ -2,15 +2,15 @@
   "schemaVersion": 1,
   "product": "直播水族馆",
   "subtitle": "多平台直播监看",
-  "version": "1.8.0",
-  "gitCommit": "d34c0e3a47fdc079410062c773ea8af7e217aba9",
+  "version": "1.8.1",
+  "gitCommit": "d0d76a51c771322ba1deac0e0d9b305b28bbe079",
   "gitTreeState": "clean",
-  "builtAtUtc": "2026-08-30T01:07:30.5823146+00:00",
+  "builtAtUtc": "2026-08-30T02:56:31.6887184+00:00",
   "releaseScope": "public",
   "installer": {
-    "fileName": "直播水族馆-Setup-1.8.0.exe",
-    "size": 109135839,
-    "sha256": "05c556f684e0d2c73b14383ffdb1d20dcfd165eaba9772e43c1c044c32407ec7"
+    "fileName": "直播水族馆-Setup-1.8.1.exe",
+    "size": 109126564,
+    "sha256": "4d3355e316fa15904a9189dd2f5baf52fa5d1c67437d7011f3c54ec4b97133be"
   },
   "publicPackage": {
     "fileCount": 566,
@@ -18,17 +18,17 @@
       {
         "path": "直播水族馆.deps.json",
         "size": 54798,
-        "sha256": "4ad59f77be52e0dd3af51dc2bf4d8f927d90855939c92a68e63bd507f41dfef4"
+        "sha256": "cfc4d78ade71c690094b7907a91cdbfd3db92ec566d43055055f05076d953b4b"
       },
       {
         "path": "直播水族馆.dll",
-        "size": 1975296,
-        "sha256": "68a669c59d1bb6f6dadb617f9e4904f2520d718599bef0fc2ea1a5b4ff7d6d1b"
+        "size": 1977856,
+        "sha256": "1fedc33dc703559e0b28305675750e5fbdae94800fa587efb485411a56490c26"
       },
       {
         "path": "直播水族馆.exe",
         "size": 246784,
-        "sha256": "9626bb97e30ffba0d7975b68f49abbf31523e11a4d233351cb71f9a91380d394"
+        "sha256": "3762e96a8c8cdec7443f04036df7383de648fce9b7ce82b5227ab9c0b645e2cd"
       },
       {
         "path": "直播水族馆.runtimeconfig.json",
@@ -272,13 +272,13 @@
       },
       {
         "path": "DouyuMonitor.Core.dll",
-        "size": 378368,
-        "sha256": "b3518d9f6d54e24a93f4b69efb474d68efadad06b38689180084bc5b9d896095"
+        "size": 385024,
+        "sha256": "9fbaf012aca2e6f4eadb7cd3bc996343a89ee9f70730c0d7c12da60cbd1b5b2d"
       },
       {
         "path": "DouyuMonitor.Infrastructure.dll",
-        "size": 780288,
-        "sha256": "b17b1f3356f15cf2d91669d67906b3a82a9da4b79c60055a52cd4d0203fae8c1"
+        "size": 783872,
+        "sha256": "6350e707822caddf811118782c5648e79cc2402461ec09093d0191ff6f680900"
       },
       {
         "path": "dwmcorei.dll",
@@ -293,7 +293,7 @@
       {
         "path": "en-US/直播水族馆.resources.dll",
         "size": 43520,
-        "sha256": "a1e26b01dc77576df464b548c09b32f0d4885d722bee17a84bc376d30cc5fa18"
+        "sha256": "fa314c327bdd86651756afef43d37ef9993bec3463bb19f6840ac4375876810b"
       },
       {
         "path": "es/Microsoft.VisualBasic.Forms.resources.dll",
@@ -507,8 +507,8 @@
       },
       {
         "path": "guide/user-guide.html",
-        "size": 1159759,
-        "sha256": "524cdf0f8052065359038a86cc180fc95fec1c9dfdcba02f5549583b92400055"
+        "size": 1159762,
+        "sha256": "50db1aa4041a0b211c617862fa04e0a5bda5e9e6d0057f2492fe9734cc87f752"
       },
       {
         "path": "hostfxr.dll",
@@ -2848,23 +2848,23 @@
     ]
   },
   "symbols": {
-    "archivePath": "artifacts/symbols/1.8.0/d34c0e3a47fdc079410062c773ea8af7e217aba9",
+    "archivePath": "artifacts/symbols/1.8.1/d0d76a51c771322ba1deac0e0d9b305b28bbe079",
     "fileCount": 3,
     "files": [
       {
         "path": "直播水族馆.pdb",
-        "size": 336288,
-        "sha256": "0cfbe403f12afeb5f16e89508767da5235bd7f7fff81f3a1aaa2d72ff264a1f7"
+        "size": 336436,
+        "sha256": "8884ca64bbbddafeb447852dbd614e93c977d62c34a5f620afc87dbe409c4f18"
       },
       {
         "path": "DouyuMonitor.Core.pdb",
-        "size": 104800,
-        "sha256": "8c07f9026f1ae6e6728f4fad5d645214524d0c414b49794db10838c084003afb"
+        "size": 106060,
+        "sha256": "2dfd3abda6c5720909ec04de764e07a71eb6e5e76c51e6a173e65226f59102d7"
       },
       {
         "path": "DouyuMonitor.Infrastructure.pdb",
-        "size": 180300,
-        "sha256": "867d5b9183705a00b87c1e24bad84d545962be335b43ed501bcad7a860cc7d10"
+        "size": 180736,
+        "sha256": "c797181b39e134139cb31a91bfa5fc727c9463fe6c2a498012f6ce46c0114562"
       }
     ]
   }

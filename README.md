@@ -14,20 +14,20 @@
 
 ## 下载
 
-请从 [Releases](https://github.com/maofanyi/LiveAquarium-Releases/releases/latest) 下载最新的 `LiveAquarium-Setup-1.8.0.exe`。
+请从 [Releases](https://github.com/maofanyi/LiveAquarium-Releases/releases/latest) 下载最新的 `LiveAquarium-Setup-1.8.1.exe`。
 
-当前版本：**1.8.0**
+当前版本：**1.8.1**
 
 仅应信任本仓库发布的安装程序。软件目前没有 Authenticode 代码签名，Windows 首次运行时可能显示未知发布者；请在运行前核对 SHA-256。
 
 ```powershell
-Get-FileHash -Algorithm SHA256 '.\LiveAquarium-Setup-1.8.0.exe'
+Get-FileHash -Algorithm SHA256 '.\LiveAquarium-Setup-1.8.1.exe'
 ```
 
 安装包 SHA-256：
 
 ```text
-05c556f684e0d2c73b14383ffdb1d20dcfd165eaba9772e43c1c044c32407ec7
+4d3355e316fa15904a9189dd2f5baf52fa5d1c67437d7011f3c54ec4b97133be
 ```
 
 ## 主要功能
