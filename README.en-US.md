@@ -14,28 +14,28 @@ The current release supports Douyu, Bilibili, Douyin, Huya, Twitch, and YouTube.
 
 ## Download
 
-Download the latest `LiveAquarium-Setup-1.8.3.exe` from [GitHub Releases](https://github.com/maofanyi/LiveAquarium-Releases/releases/latest).
+Download the latest `LiveAquarium-Setup-1.9.0.exe` from [GitHub Releases](https://github.com/maofanyi/LiveAquarium-Releases/releases/latest).
 
-Gitee Releases provides the smaller `LiveAquarium-Setup-1.8.3-Lite.exe`. The lite installer downloads and verifies the `yt-dlp` component in the background when YouTube or Twitch is first used; all other features are unchanged.
+Gitee Releases provides the smaller `LiveAquarium-Setup-1.9.0-Lite.exe`. The lite installer downloads and verifies the `yt-dlp` component in the background when YouTube or Twitch is first used; all other features are unchanged.
 
-Current version: **1.8.3**
+Current version: **1.9.0**
 
 Only trust installers published by this repository. The application does not currently have an Authenticode code signature, so Windows may show an unknown-publisher warning on first launch. Verify the SHA-256 hash before running the installer.
 
 ```powershell
-Get-FileHash -Algorithm SHA256 '.\LiveAquarium-Setup-1.8.3.exe'
+Get-FileHash -Algorithm SHA256 '.\LiveAquarium-Setup-1.9.0.exe'
 ```
 
 Installer SHA-256:
 
 ```text
-28cde87031d40a9c7b5062aec8b64aba384e3ed72d63dc8d363e295f3df240eb
+159aca3aedb063fe1c1697db027035b566cfc8358f3f676ac21c3bc98cf3fcd6
 ```
 
 Gitee lite installer SHA-256:
 
 ```text
-60bb763c54dbe4f0e577a416e0e159645f8c51851ebc3f51b327106d497ee5a5
+0bf028a080ef2b1209c5a6c2ffa99111ff1b76151db333b065d5a5dd4dbb2371
 ```
 
 ## Features
@@ -53,7 +53,7 @@ Gitee lite installer SHA-256:
 
 - [Illustrated online guide](https://maofanyi.github.io/LiveAquarium-Releases/)
 - [Chinese text guide](docs/使用说明.md)
-- [Illustrated offline guide](docs/user-guide.html) — download the repository and open it in a browser
+- [Illustrated offline guide](docs/user-guide-english.html) — download the repository and open it in a browser
 
 The same illustrated guide is available inside the app under **Settings → User Guide**.
 
@@ -73,6 +73,8 @@ The detailed guides are currently available in Chinese. English documentation wi
 - Sentry may store the telemetry request's connection source IP to provide country/region information. The app does not place IP addresses in telemetry fields and never sends room IDs, streamer names, live titles, stream URLs, danmaku, Windows usernames, hardware identifiers, full local paths, complete settings, or complete logs.
 - Unsent statistics are kept locally for up to 14 days. Clearing local application data also resets the anonymous installation identifier.
 - Uninstalling the application does not automatically remove this local data.
+- Each playing monitored room keeps a bounded compressed audio/video replay cache for roughly the latest 120 seconds under `%LocalAppData%\DouyuMonitor\replay-cache`, solely for local retrospective GIF generation. It is never uploaded, is capped at 512 MiB per room and 2 GiB globally, and orphaned segments are cleaned on the next startup.
+- Generated GIFs are saved to `Pictures\LiveAquarium\GIFs` by default (or the local application-data fallback when Pictures is unavailable). Users control copying, sharing, and deletion; uninstalling does not automatically remove exported GIFs.
 - The application does not store platform accounts, cookies, or passwords.
 
 ## Bug Reports and Security

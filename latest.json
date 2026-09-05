@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "latestVersion": "1.8.3",
-  "publishedAt": "2026-08-30",
-  "releasePage": "https://gitee.com/ntrmao/DouyuMonitor-Releases/releases#release-v1.8.3",
-  "summary": "修复移除 YouTube 或 Twitch 直播间后，旧布局位置仍被占用，导致新直播间无法拖入并显示红框的问题。",
+  "latestVersion": "1.9.0",
+  "publishedAt": "2026-09-06",
+  "releasePage": "https://gitee.com/ntrmao/DouyuMonitor-Releases/releases#release-v1.9.0",
+  "summary": "同一回溯精彩面板可选择循环 GIF 或带声音的 MP4 短视频；GIF 支持 2–10 秒，短视频支持 2–120 秒并与滚动缓存上限一致。",
   "installer": {
-    "fileName": "LiveAquarium-Setup-1.8.3.exe",
-    "size": 109119168,
-    "sha256": "28cde87031d40a9c7b5062aec8b64aba384e3ed72d63dc8d363e295f3df240eb",
+    "fileName": "LiveAquarium-Setup-1.9.0.exe",
+    "size": 114405454,
+    "sha256": "159aca3aedb063fe1c1697db027035b566cfc8358f3f676ac21c3bc98cf3fcd6",
     "downloadUrls": [
-      "https://github.com/maofanyi/DouyuMonitor-Releases/releases/download/v1.8.3/LiveAquarium-Setup-1.8.3.exe"
+      "https://github.com/maofanyi/DouyuMonitor-Releases/releases/download/v1.9.0/LiveAquarium-Setup-1.9.0.exe"
     ]
   }
 }

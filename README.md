@@ -14,28 +14,28 @@
 
 ## 下载
 
-请从 [Releases](https://github.com/maofanyi/LiveAquarium-Releases/releases/latest) 下载最新的 `LiveAquarium-Setup-1.8.3.exe`。
+请从 [Releases](https://github.com/maofanyi/LiveAquarium-Releases/releases/latest) 下载最新的 `LiveAquarium-Setup-1.9.0.exe`。
 
-Gitee Releases 提供体积更小的 `LiveAquarium-Setup-1.8.3-Lite.exe`。轻量版首次使用 YouTube 或 Twitch 时会在后台下载并校验 `yt-dlp` 解析组件；其他功能与完整版一致。
+Gitee Releases 提供体积更小的 `LiveAquarium-Setup-1.9.0-Lite.exe`。轻量版首次使用 YouTube 或 Twitch 时会在后台下载并校验 `yt-dlp` 解析组件；其他功能与完整版一致。
 
-当前版本：**1.8.3**
+当前版本：**1.9.0**
 
 仅应信任本仓库发布的安装程序。软件目前没有 Authenticode 代码签名，Windows 首次运行时可能显示未知发布者；请在运行前核对 SHA-256。
 
 ```powershell
-Get-FileHash -Algorithm SHA256 '.\LiveAquarium-Setup-1.8.3.exe'
+Get-FileHash -Algorithm SHA256 '.\LiveAquarium-Setup-1.9.0.exe'
 ```
 
 安装包 SHA-256：
 
 ```text
-28cde87031d40a9c7b5062aec8b64aba384e3ed72d63dc8d363e295f3df240eb
+159aca3aedb063fe1c1697db027035b566cfc8358f3f676ac21c3bc98cf3fcd6
 ```
 
 Gitee 轻量安装包 SHA-256：
 
 ```text
-60bb763c54dbe4f0e577a416e0e159645f8c51851ebc3f51b327106d497ee5a5
+0bf028a080ef2b1209c5a6c2ffa99111ff1b76151db333b065d5a5dd4dbb2371
 ```
 
 ## 主要功能
@@ -70,6 +70,8 @@ Gitee 轻量安装包 SHA-256：
 - Sentry 可保存遥测请求的连接来源 IP，并据此提供国家/地区信息；应用不会把 IP 放入遥测字段，也不发送房间号、主播名称、直播标题、直播地址、弹幕、Windows 用户名、硬件标识、完整本地路径、完整设置或完整日志。
 - 未发送统计最多在本地保留 14 天；清除本地应用数据会同时重置匿名安装标识。
 - 卸载不会自动删除上述本地数据。
+- 正在播放的监控房间会在 `%LocalAppData%\DouyuMonitor\replay-cache` 保存最近约 120 秒的有界压缩音视频缓存，用于本地生成回溯 GIF；缓存不上传，受单房间 512 MiB 和全局 2 GiB 上限约束，并在下次启动时清理遗留分片。
+- 用户生成的 GIF 默认保存在“图片\LiveAquarium\GIFs”（图片目录不可用时保存到本地应用数据目录），由用户自行复制、分享或删除；卸载不会自动删除已导出的 GIF。
 - 软件不保存平台账号、Cookie 或密码。
 
 ## 问题反馈与安全提示
