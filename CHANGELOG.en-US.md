@@ -2,28 +2,24 @@
 
 [简体中文](CHANGELOG.md) | [English](CHANGELOG.en-US.md)
 
-## 1.9.0 (2026-09-06)
+## 1.9.1 (2026-09-09)
 
-### Replay Highlight GIFs and Videos
+### Live Detection and Automatic Recovery
 
-- The replay highlight panel now exports either a looping GIF or an MP4 video with audio. GIF ranges remain 2–10 seconds; video ranges can use the full 2–120 second rolling cache.
-- Historical danmaku and the current title are optional layers; missing or failed layers safely fall back to a video-only GIF, with no separate PNG export.
+- Monitored offline streamers are now detected through lightweight status checks and connected automatically when they go live. Initial startup establishes a baseline without sending false live notifications.
+- Playback stall and error recovery is more robust, with normal stream endings distinguished from playback failures. Retry notices now clear once a streamer is confirmed offline.
 
-### Local Cache and Reliability
+### Replay Preview and Export Reliability
 
-- Keyframe-aligned rolling history reuses compressed packets already read by playback without another network stream, with a live tail, leases, per-room/global quotas, and startup cleanup.
-- GIF generation uses an adaptive palette and bounds frame rate, dimensions, memory, and file size, with cancellation, explicit over-budget guidance, atomic saving, file copy, and no silent specification downgrade.
+- Fixed preview failures for selections exactly 120 seconds long, and improved video timestamp handling, audio/video finalization, and export failure diagnostics so full-length videos export reliably.
+- Rolling-cache diagnostics now report write rate, segments, eviction, disk quotas, and operation latency. A failed segment write can recover automatically at the next keyframe.
 
-### Editing and Preview Experience
+### List, Layout, and Danmaku Continuity
 
-- The timeline now uses a thicker editing-style track with ticks, a playhead, unrestricted preview playback, and a separate Play Selection action. Moving the selected range no longer changes the current playback position.
-- Preview playback reads directly from the frozen local cache and renders historical danmaku through the normal player overlay. Danmaku styling, size, outline, and motion scale correctly with the selected output resolution.
+- Fixed the streamer list jumping to the top, flashing later rows, or reloading the selected card while dragging or adding a streamer, including under active filters.
+- Active danmaku now continues through window resizing, sidebar expansion or collapse, and room-card size changes instead of being cleared and restarted.
 
-### Entry Points, Storage, and Help
+### Interface and Playback Stability
 
-- A scissors action and live-view context-menu entry open Replay Highlights. Settings can enable the feature and manage cache and export folders, which default beside the installed app for installer deployments.
-- Onboarding and the offline user guide now explain Replay Highlights, with both Simplified Chinese and English guides included in the installer.
-
-### Anonymous Feature Metrics
-
-- Daily aggregates cover Replay Highlights, the side chat panel, and GIF/video generation outcomes to help assess reliability. Room IDs, streamer names, titles, danmaku content, and local paths are never uploaded.
+- Strengthened video presentation resource switching and lifecycle protection to reduce display failures and crashes during refreshes, layout changes, and recovery.
+- Shortened the anonymous-usage explanation, moved author information above it, and refined the add-preset action to better match the current interface.

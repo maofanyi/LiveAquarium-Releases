@@ -14,28 +14,28 @@ The current release supports Douyu, Bilibili, Douyin, Huya, Twitch, and YouTube.
 
 ## Download
 
-Download the latest `LiveAquarium-Setup-1.9.0.exe` from [GitHub Releases](https://github.com/maofanyi/LiveAquarium-Releases/releases/latest).
+Download the latest `LiveAquarium-Setup-1.9.1.exe` from [GitHub Releases](https://github.com/maofanyi/LiveAquarium-Releases/releases/latest).
 
-Gitee Releases provides the smaller `LiveAquarium-Setup-1.9.0-Lite.exe`. The lite installer downloads and verifies the `yt-dlp` component in the background when YouTube or Twitch is first used; all other features are unchanged.
+Gitee Releases provides the smaller `LiveAquarium-Setup-1.9.1-Lite.exe`. The lite installer downloads and verifies the `yt-dlp` component in the background when YouTube or Twitch is first used; all other features are unchanged.
 
-Current version: **1.9.0**
+Current version: **1.9.1**
 
 Only trust installers published by this repository. The application does not currently have an Authenticode code signature, so Windows may show an unknown-publisher warning on first launch. Verify the SHA-256 hash before running the installer.
 
 ```powershell
-Get-FileHash -Algorithm SHA256 '.\LiveAquarium-Setup-1.9.0.exe'
+Get-FileHash -Algorithm SHA256 '.\LiveAquarium-Setup-1.9.1.exe'
 ```
 
 Installer SHA-256:
 
 ```text
-159aca3aedb063fe1c1697db027035b566cfc8358f3f676ac21c3bc98cf3fcd6
+22622905597ba1787b6697deb28af57ca9d4f6205e2efa4583942956682c8b03
 ```
 
 Gitee lite installer SHA-256:
 
 ```text
-0bf028a080ef2b1209c5a6c2ffa99111ff1b76151db333b065d5a5dd4dbb2371
+fed5e651eedd6a6e7f72bf18f3563bd8a78c9ec0930aa9eaecf48cc2500537b2
 ```
 
 ## Features

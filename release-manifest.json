@@ -2,20 +2,20 @@
   "schemaVersion": 1,
   "product": "直播水族馆",
   "subtitle": "多平台直播监看",
-  "version": "1.9.0",
-  "gitCommit": "b97e8bc403b4a2681c61d8a5f4137c0164962453",
+  "version": "1.9.1",
+  "gitCommit": "3da7d941b8edf9505326c4e0b37df3540fb39b83",
   "gitTreeState": "clean",
-  "builtAtUtc": "2026-09-05T18:23:11.1136760+00:00",
+  "builtAtUtc": "2026-09-08T19:31:00.1301342+00:00",
   "releaseScope": "public",
   "installer": {
-    "fileName": "直播水族馆-Setup-1.9.0.exe",
-    "size": 114405454,
-    "sha256": "159aca3aedb063fe1c1697db027035b566cfc8358f3f676ac21c3bc98cf3fcd6"
+    "fileName": "直播水族馆-Setup-1.9.1.exe",
+    "size": 114671656,
+    "sha256": "22622905597ba1787b6697deb28af57ca9d4f6205e2efa4583942956682c8b03"
   },
   "giteeLiteInstaller": {
-    "fileName": "直播水族馆-Setup-1.9.0-Lite.exe",
-    "size": 97105012,
-    "sha256": "0bf028a080ef2b1209c5a6c2ffa99111ff1b76151db333b065d5a5dd4dbb2371"
+    "fileName": "直播水族馆-Setup-1.9.1-Lite.exe",
+    "size": 97371003,
+    "sha256": "fed5e651eedd6a6e7f72bf18f3563bd8a78c9ec0930aa9eaecf48cc2500537b2"
   },
   "publicPackage": {
     "fileCount": 572,
@@ -23,17 +23,17 @@
       {
         "path": "直播水族馆.deps.json",
         "size": 54798,
-        "sha256": "1833e33410ca38a5cd1ceb14709b967ed44f58c7501e74b8329dfc3f75b522c1"
+        "sha256": "83713aad81d9caea38c98a00fc97d0262f54e00d23f5e669da0c074a3cc2762f"
       },
       {
         "path": "直播水族馆.dll",
-        "size": 2226688,
-        "sha256": "0fdb7959b2ae4439e20886a306cde354b7c967c4cedf0578568d40e3baba9112"
+        "size": 2257408,
+        "sha256": "b6dc4878b4cf9a6f2c68ebd5524311ef258549a96526eb473f30cedfa2eec388"
       },
       {
         "path": "直播水族馆.exe",
         "size": 246784,
-        "sha256": "ec9905ebca68972ab4eefbc61e23c5cd86a0d6c65bc8d1d256ba5b318b51ac67"
+        "sha256": "fa5c5c83617a0b4b085ed6084c8da79440efc2bfa7dddb5e908c1b728d0acccf"
       },
       {
         "path": "直播水族馆.runtimeconfig.json",
@@ -277,13 +277,13 @@
       },
       {
         "path": "DouyuMonitor.Core.dll",
-        "size": 432128,
-        "sha256": "af1ea990432f25ab1a3ff05167a86cba952aae40fe874398226d5c7203b0b15f"
+        "size": 448512,
+        "sha256": "22c8f233492bcf52bbc4249726b00a0e8bb31d5f43c3a813824867f733715826"
       },
       {
         "path": "DouyuMonitor.Infrastructure.dll",
-        "size": 904192,
-        "sha256": "cb2e9f1b6a659fe692ee204308f0b384410aad56c3579fac820f1c198a534234"
+        "size": 941568,
+        "sha256": "5ab1b1b6cf3115b27162b35eed2bb5375c00fc2c2f205213b849ce5b756b43e6"
       },
       {
         "path": "dwmcorei.dll",
@@ -297,8 +297,8 @@
       },
       {
         "path": "en-US/直播水族馆.resources.dll",
-        "size": 52224,
-        "sha256": "11dc391a53256502c287bb4edd92c42579f439ef1bb0e721b290bc30ba656711"
+        "size": 51712,
+        "sha256": "3ad4b290ffc89b00b9915a8d1f676c8b012258009b01500398181684a367a266"
       },
       {
         "path": "es/Microsoft.VisualBasic.Forms.resources.dll",
@@ -392,28 +392,28 @@
       },
       {
         "path": "ffmpeg/avcodec-62.dll",
-        "size": 70874624,
-        "sha256": "50f1d41de623ab01fea020101138c4797db11c76f528ea7ddc94a06b8b0e3563"
+        "size": 70869504,
+        "sha256": "87f17571aafaf4af460d4f35f99674ae6a94a7531ce79050a416b7d54182a1a9"
       },
       {
         "path": "ffmpeg/avdevice-62.dll",
-        "size": 3699712,
-        "sha256": "f97ea88956c0f0e72427135ab52d4b0668443369a1846aba3f937acd9a406a15"
+        "size": 3923968,
+        "sha256": "0d9ef5990a9bac5a9d385e46850e05a3c54173495cd160f27898889299e282b1"
       },
       {
         "path": "ffmpeg/avfilter-11.dll",
-        "size": 29816320,
-        "sha256": "036cad46905f66c455eb514ff0ff516b4546bc5b16f4ebc4f47589c3ee392faf"
+        "size": 30029312,
+        "sha256": "da7d380d738534eae0e1deccf9825777f98e2046ca2612a3a73a4aee302064eb"
       },
       {
         "path": "ffmpeg/avformat-62.dll",
-        "size": 22070784,
-        "sha256": "71f286e26276bfd4b1f49e1d9331babdf418c5e0886a7d89ead3e64bb6cee45a"
+        "size": 22107648,
+        "sha256": "7f8b5dfd7eb945522c0e089cbdff230d6c4f108d2229f669176da87aa1d2ebb2"
       },
       {
         "path": "ffmpeg/avutil-60.dll",
-        "size": 2937856,
-        "sha256": "2ce8d54e68329f5154fa3ec4b12dd011e237febebb447a119737ecba7439d6e4"
+        "size": 2937344,
+        "sha256": "13f412ff746ec2f2813b0a3d184a34361bdb425635e26d3974325148fdd6bce8"
       },
       {
         "path": "ffmpeg/FFmpeg-LICENSE.txt",
@@ -422,28 +422,28 @@
       },
       {
         "path": "ffmpeg/ffmpeg.exe",
-        "size": 542208,
-        "sha256": "f649fa542dd9db20378f333ac79111e6fb45aa6c06d8f58e4fa6b5388c4a7531"
+        "size": 541184,
+        "sha256": "0d600a70c6b62c45c8078638d1ecd4ed05545f3fb6ac2d19b406e3ae8d70c961"
       },
       {
         "path": "ffmpeg/ffprobe.exe",
-        "size": 227840,
-        "sha256": "1b04364f0a4998b65bd7fd68a0eb10efaa4a82a3d741367dc4f2d13878f2d806"
+        "size": 225792,
+        "sha256": "a413e4866082dd7eb29a4a4e4b2fa13c76b546950ad0071cbff62e10b414119e"
       },
       {
         "path": "ffmpeg/runtime-manifest.json",
         "size": 596,
-        "sha256": "0961d2dbeb064f7c5798aca687c6f62593628849662d9e1637753ee16606ff06"
+        "sha256": "6e0cb3cf96276fa1d64a4dca24877db108514e342971eda2a3852bb1b1df0959"
       },
       {
         "path": "ffmpeg/swresample-6.dll",
-        "size": 723968,
-        "sha256": "560b7cf7c51415079ba45c30e105e4af5400f6f7f3c07f21638a6ec4a3b703ea"
+        "size": 722944,
+        "sha256": "2d96741de9b7cd36ea6246d3d1c688f4ff0b4586af0e5814f74062b0c2138e0e"
       },
       {
         "path": "ffmpeg/swscale-9.dll",
-        "size": 12570624,
-        "sha256": "4225e59d19833c81cd9e85c240cafa45431f41c92703d626c9d38e113bd654ec"
+        "size": 12759040,
+        "sha256": "3aed98acf700fb6211403dc2d22bbd794652121f59c1f8ab147ffb9d4379c865"
       },
       {
         "path": "fr/Microsoft.VisualBasic.Forms.resources.dll",
@@ -533,12 +533,12 @@
       {
         "path": "guide/user-guide-english.html",
         "size": 1240953,
-        "sha256": "be846bda811b147633cad8b8d377820e6cb2f3b48e66a3d7bc6c09b55aeb815a"
+        "sha256": "c5c06db57e1bf017b88bbf3220362d5f92a823d610ac3875ae9b4adde42a960f"
       },
       {
         "path": "guide/user-guide.html",
         "size": 1240066,
-        "sha256": "b27245ee5e0ebbfcd58c794a07500a4fb680b1d29fb009206436f484293d54d1"
+        "sha256": "f6b5e7091364e37dc87dbe8e5dc7d4a93d26b889287243de3ae319e3c090513e"
       },
       {
         "path": "hostfxr.dll",
@@ -2883,23 +2883,23 @@
     ]
   },
   "symbols": {
-    "archivePath": "artifacts/symbols/1.9.0/b97e8bc403b4a2681c61d8a5f4137c0164962453",
+    "archivePath": "artifacts/symbols/1.9.1/3da7d941b8edf9505326c4e0b37df3540fb39b83",
     "fileCount": 3,
     "files": [
       {
         "path": "直播水族馆.pdb",
-        "size": 399676,
-        "sha256": "b5e8cc35d8803ab32f89567840900008674051419812ec5189700de7f64a71b8"
+        "size": 406120,
+        "sha256": "36f6a912538df6977bfeb1fb9e85b055d9b8fb73b457ddd71146668550568281"
       },
       {
         "path": "DouyuMonitor.Core.pdb",
-        "size": 115168,
-        "sha256": "8c9f44be18dc81448f99703493829bb7ee8e01212faf6d2e8a76c590125bed63"
+        "size": 119708,
+        "sha256": "127dc1a4aa1ab39bbc7f6a8e0bef9b03ca07a9ecc79e9230852e85babb159958"
       },
       {
         "path": "DouyuMonitor.Infrastructure.pdb",
-        "size": 207640,
-        "sha256": "30960f9c20aeb291382afa018636e2ee9178e216d9be5fdcbcc675c4d2aedf40"
+        "size": 215380,
+        "sha256": "2d493330a4b5a4c23990304abb34f95189c088b558e156f3abc6cd02d8dd4ceb"
       }
     ]
   }
