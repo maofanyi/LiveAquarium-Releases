@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "latestVersion": "1.9.1",
+  "latestVersion": "1.9.2",
   "publishedAt": "2026-09-09",
-  "releasePage": "https://gitee.com/ntrmao/DouyuMonitor-Releases/releases#release-v1.9.1",
-  "summary": "监控中的离线主播会通过轻量状态检查及时识别开播并自动连接；首次启动只建立状态基线，不再误触发开播提醒。",
+  "releasePage": "https://gitee.com/ntrmao/DouyuMonitor-Releases/releases#release-v1.9.2",
+  "summary": "修复 YouTube 正在直播却显示未直播的问题；现在会区分直播中、已预约、回放和离线，页面状态暂时无法确认时会保留已有结果。",
   "installer": {
-    "fileName": "LiveAquarium-Setup-1.9.1.exe",
-    "size": 114671656,
-    "sha256": "22622905597ba1787b6697deb28af57ca9d4f6205e2efa4583942956682c8b03",
+    "fileName": "LiveAquarium-Setup-1.9.2.exe",
+    "size": 114676775,
+    "sha256": "b790677ff1842feaa578fa48b497ae10b3e46fe25fc08450592fb94b1f036707",
     "downloadUrls": [
-      "https://github.com/maofanyi/DouyuMonitor-Releases/releases/download/v1.9.1/LiveAquarium-Setup-1.9.1.exe"
+      "https://github.com/maofanyi/DouyuMonitor-Releases/releases/download/v1.9.2/LiveAquarium-Setup-1.9.2.exe"
     ]
   }
 }
