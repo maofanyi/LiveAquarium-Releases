@@ -5,17 +5,17 @@
   "version": "1.10.0",
   "gitCommit": "ced16c0d2318fe1fa66b8013fe2efe82a72272b4",
   "gitTreeState": "clean",
-  "builtAtUtc": "2026-09-11T15:22:42.7325998+00:00",
+  "builtAtUtc": "2026-09-11T15:35:00.9952482+00:00",
   "releaseScope": "public",
   "installer": {
     "fileName": "直播水族馆-Setup-1.10.0.exe",
-    "size": 114796080,
-    "sha256": "c91b1a9b1ebe5ba8359ac64fc1d4ea9532cf56308be9e4141f71d030cbb586c8"
+    "size": 114797138,
+    "sha256": "c8d6998115a32d5fab134aed48a0415a0f84f7f68409b8e7ce4e620cf2ca1cd5"
   },
   "giteeLiteInstaller": {
     "fileName": "直播水族馆-Setup-1.10.0-Lite.exe",
-    "size": 97493276,
-    "sha256": "ae813e8a24349b2f4be36bd30ee61612cfc16f1835ce9ce6e849711c512ab838"
+    "size": 97494332,
+    "sha256": "0294bdd3d9a22eb04be9812edd2c98616bbebafd3dd85283363ec635f3361c57"
   },
   "publicPackage": {
     "fileCount": 573,
@@ -28,7 +28,7 @@
       {
         "path": "直播水族馆.dll",
         "size": 2490880,
-        "sha256": "bc65c7dfe8769e5f5ee40065e9037ba1cb0ac6d8973a4d60a541bd771d56d997"
+        "sha256": "538679fc2187d7dd2afc71a66475403c97a8cfd091736eec836cf6a931cca097"
       },
       {
         "path": "直播水族馆.exe",
@@ -2894,7 +2894,7 @@
       {
         "path": "直播水族馆.pdb",
         "size": 458000,
-        "sha256": "ca715b0a94a9b312c9f89662896946457d551f1226ab878c37c9c1cca3aae3d0"
+        "sha256": "687a898e3a1bc2fa24c7e1ee603d440eb9dafd520d1d3263a3f9fba246791c1e"
       },
       {
         "path": "DouyuMonitor.Core.pdb",

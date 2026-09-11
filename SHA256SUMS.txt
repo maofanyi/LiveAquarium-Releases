@@ -1,3 +1,3 @@
-c91b1a9b1ebe5ba8359ac64fc1d4ea9532cf56308be9e4141f71d030cbb586c8  LiveAquarium-Setup-1.10.0.exe
-ae813e8a24349b2f4be36bd30ee61612cfc16f1835ce9ce6e849711c512ab838  LiveAquarium-Setup-1.10.0-Lite.exe
-ebcc40f9df8d2b9b9174e7d4f15766816055b31f6d3e194df306e0fdaafad4e5  release-manifest.json
+c8d6998115a32d5fab134aed48a0415a0f84f7f68409b8e7ce4e620cf2ca1cd5  LiveAquarium-Setup-1.10.0.exe
+0294bdd3d9a22eb04be9812edd2c98616bbebafd3dd85283363ec635f3361c57  LiveAquarium-Setup-1.10.0-Lite.exe
+126d1c725e4bd42c9b5fae41db619e984c190741c8c68425dcc718ca02e8bbc2  release-manifest.json

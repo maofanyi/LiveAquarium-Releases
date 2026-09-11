@@ -29,13 +29,13 @@ Get-FileHash -Algorithm SHA256 '.\LiveAquarium-Setup-1.10.0.exe'
 安装包 SHA-256：
 
 ```text
-c91b1a9b1ebe5ba8359ac64fc1d4ea9532cf56308be9e4141f71d030cbb586c8
+c8d6998115a32d5fab134aed48a0415a0f84f7f68409b8e7ce4e620cf2ca1cd5
 ```
 
 Gitee 轻量安装包 SHA-256：
 
 ```text
-ae813e8a24349b2f4be36bd30ee61612cfc16f1835ce9ce6e849711c512ab838
+0294bdd3d9a22eb04be9812edd2c98616bbebafd3dd85283363ec635f3361c57
 ```
 
 ## 主要功能

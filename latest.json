@@ -6,8 +6,8 @@
   "summary": "回溯缓存改用内存保存，减少持续磁盘写入；相应会增加内存占用，可用内存较少或同时监控较多房间时，实际可回溯时长可能缩短。",
   "installer": {
     "fileName": "LiveAquarium-Setup-1.10.0.exe",
-    "size": 114796080,
-    "sha256": "c91b1a9b1ebe5ba8359ac64fc1d4ea9532cf56308be9e4141f71d030cbb586c8",
+    "size": 114797138,
+    "sha256": "c8d6998115a32d5fab134aed48a0415a0f84f7f68409b8e7ce4e620cf2ca1cd5",
     "downloadUrls": [
       "https://github.com/maofanyi/DouyuMonitor-Releases/releases/download/v1.10.0/LiveAquarium-Setup-1.10.0.exe"
     ]
