@@ -3,7 +3,7 @@
 <div align="center">
   <img src="assets/app-icon.png" width="96" alt="直播水族馆图标">
   <h1>直播水族馆</h1>
-  <p><strong>在一个窗口里，同时看懂多个直播间。</strong></p>
+  <p><strong>在一个窗口里，同时观看多个直播间。</strong></p>
   <p>Windows 10 / 11 · 最多 16 路 · 无需登录平台账号</p>
   <p>
     <a href="https://github.com/maofanyi/LiveAquarium-Releases/releases/latest"><strong>下载最新版</strong></a>
