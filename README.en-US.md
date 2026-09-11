@@ -87,6 +87,12 @@ When reporting an issue, include the application version, reproduction steps, an
 
 Do not repackage the installer, present modified builds as official, or distribute unofficial installers under the project name or icon without permission.
 
+## Official Community and Feedback
+
+Join the official QQ group **直播水族馆交流群** (group ID: `796651138`) to share feedback, report issues, or suggest improvements.
+
+![QR code for the official Live Aquarium QQ group](assets/official-community-qq.png)
+
 ## Support the Author
 
 If Live Aquarium is useful to you, you may voluntarily support the author through Alipay. Donations do not affect application functionality and do not constitute the purchase of a commercial license.
