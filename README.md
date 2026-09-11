@@ -14,28 +14,28 @@
 
 ## 下载
 
-请从 [Releases](https://github.com/maofanyi/LiveAquarium-Releases/releases/latest) 下载最新的 `LiveAquarium-Setup-1.9.2.exe`。
+请从 [Releases](https://github.com/maofanyi/LiveAquarium-Releases/releases/latest) 下载最新的 `LiveAquarium-Setup-1.10.0.exe`。
 
-Gitee Releases 提供体积更小的 `LiveAquarium-Setup-1.9.2-Lite.exe`。轻量版首次使用 YouTube 或 Twitch 时会在后台下载并校验 `yt-dlp` 解析组件；其他功能与完整版一致。
+Gitee Releases 提供体积更小的 `LiveAquarium-Setup-1.10.0-Lite.exe`。轻量版首次使用 YouTube 或 Twitch 时会在后台下载并校验 `yt-dlp` 解析组件；其他功能与完整版一致。
 
-当前版本：**1.9.2**
+当前版本：**1.10.0**
 
 仅应信任本仓库发布的安装程序。软件目前没有 Authenticode 代码签名，Windows 首次运行时可能显示未知发布者；请在运行前核对 SHA-256。
 
 ```powershell
-Get-FileHash -Algorithm SHA256 '.\LiveAquarium-Setup-1.9.2.exe'
+Get-FileHash -Algorithm SHA256 '.\LiveAquarium-Setup-1.10.0.exe'
 ```
 
 安装包 SHA-256：
 
 ```text
-b790677ff1842feaa578fa48b497ae10b3e46fe25fc08450592fb94b1f036707
+c91b1a9b1ebe5ba8359ac64fc1d4ea9532cf56308be9e4141f71d030cbb586c8
 ```
 
 Gitee 轻量安装包 SHA-256：
 
 ```text
-38b627235072b86be8258615726746ca0714734807921c2ac132b25732baf329
+ae813e8a24349b2f4be36bd30ee61612cfc16f1835ce9ce6e849711c512ab838
 ```
 
 ## 主要功能
@@ -43,7 +43,11 @@ Gitee 轻量安装包 SHA-256：
 - 最多同时监控 16 个公开直播间，粘贴链接后自动识别支持的平台。
 - 自由拖动、交换和调整监控画面尺寸，保存多套监控方案。
 - 支持单路音频焦点以及 Shift 多选的多路音频模式。
+- 支持每房间五档音量增强，使用平滑增益与软限幅避免硬削波。
+- 支持窗口内全屏、真全屏、键盘快捷键，以及每房间 100%–400% 视频缩放和平移。
+- 支持一个主播加入多个自定义分组，每组拥有独立顺序和全部/在线筛选。
 - 支持实时弹幕、全局与单房间开关，以及精简、普通和 Max 智能显示策略。
+- 最近约 120 秒的回溯媒体保存在有界进程内内存中，仅在预览或导出时临时落盘，可生成 GIF 或带声音 MP4。
 - 支持贵宾人数常驻显示、短时间暴涨提醒和观看休息提醒。
 - 使用 FFmpeg、D3D11VA 和 WPF D3DImage，安装包自带所需 .NET 与 FFmpeg 运行库。
 - 房间列表、布局、音量和窗口状态保存在本机，不保存平台账号、Cookie 或密码。
@@ -70,8 +74,8 @@ Gitee 轻量安装包 SHA-256：
 - Sentry 可保存遥测请求的连接来源 IP，并据此提供国家/地区信息；应用不会把 IP 放入遥测字段，也不发送房间号、主播名称、直播标题、直播地址、弹幕、Windows 用户名、硬件标识、完整本地路径、完整设置或完整日志。
 - 未发送统计最多在本地保留 14 天；清除本地应用数据会同时重置匿名安装标识。
 - 卸载不会自动删除上述本地数据。
-- 正在播放的监控房间会在 `%LocalAppData%\DouyuMonitor\replay-cache` 保存最近约 120 秒的有界压缩音视频缓存，用于本地生成回溯 GIF；缓存不上传，受单房间 512 MiB 和全局 2 GiB 上限约束，并在下次启动时清理遗留分片。
-- 用户生成的 GIF 默认保存在“图片\LiveAquarium\GIFs”（图片目录不可用时保存到本地应用数据目录），由用户自行复制、分享或删除；卸载不会自动删除已导出的 GIF。
+- 正在播放的监控房间会在进程内内存保留最近约 120 秒的有界压缩音视频，用于本地回溯；正常观看不会持续写入媒体文件，缓存不上传，受单房间 512 MiB 和全局 2 GiB 上限约束，退出应用即释放。
+- 只有打开预览或执行导出时才会创建有限的临时媒体文件，结束后自动清理。用户生成的 GIF/MP4 默认保存在软件目录的 `Highlights\GIFs` 与 `Highlights\Videos`，也可在设置中修改成品目录；卸载不会自动删除已导出的成品。
 - 软件不保存平台账号、Cookie 或密码。
 
 ## 问题反馈与安全提示

@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "latestVersion": "1.9.2",
-  "publishedAt": "2026-09-09",
-  "releasePage": "https://gitee.com/ntrmao/DouyuMonitor-Releases/releases#release-v1.9.2",
-  "summary": "修复 YouTube 正在直播却显示未直播的问题；现在会区分直播中、已预约、回放和离线，页面状态暂时无法确认时会保留已有结果。",
+  "latestVersion": "1.10.0",
+  "publishedAt": "2026-09-10",
+  "releasePage": "https://gitee.com/ntrmao/DouyuMonitor-Releases/releases#release-v1.10.0",
+  "summary": "回溯缓存改用内存保存，减少持续磁盘写入；相应会增加内存占用，可用内存较少或同时监控较多房间时，实际可回溯时长可能缩短。",
   "installer": {
-    "fileName": "LiveAquarium-Setup-1.9.2.exe",
-    "size": 114676775,
-    "sha256": "b790677ff1842feaa578fa48b497ae10b3e46fe25fc08450592fb94b1f036707",
+    "fileName": "LiveAquarium-Setup-1.10.0.exe",
+    "size": 114796080,
+    "sha256": "c91b1a9b1ebe5ba8359ac64fc1d4ea9532cf56308be9e4141f71d030cbb586c8",
     "downloadUrls": [
-      "https://github.com/maofanyi/DouyuMonitor-Releases/releases/download/v1.9.2/LiveAquarium-Setup-1.9.2.exe"
+      "https://github.com/maofanyi/DouyuMonitor-Releases/releases/download/v1.10.0/LiveAquarium-Setup-1.10.0.exe"
     ]
   }
 }

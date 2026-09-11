@@ -14,28 +14,28 @@ The current release supports Douyu, Bilibili, Douyin, Huya, Twitch, and YouTube.
 
 ## Download
 
-Download the latest `LiveAquarium-Setup-1.9.2.exe` from [GitHub Releases](https://github.com/maofanyi/LiveAquarium-Releases/releases/latest).
+Download the latest `LiveAquarium-Setup-1.10.0.exe` from [GitHub Releases](https://github.com/maofanyi/LiveAquarium-Releases/releases/latest).
 
-Gitee Releases provides the smaller `LiveAquarium-Setup-1.9.2-Lite.exe`. The lite installer downloads and verifies the `yt-dlp` component in the background when YouTube or Twitch is first used; all other features are unchanged.
+Gitee Releases provides the smaller `LiveAquarium-Setup-1.10.0-Lite.exe`. The lite installer downloads and verifies the `yt-dlp` component in the background when YouTube or Twitch is first used; all other features are unchanged.
 
-Current version: **1.9.2**
+Current version: **1.10.0**
 
 Only trust installers published by this repository. The application does not currently have an Authenticode code signature, so Windows may show an unknown-publisher warning on first launch. Verify the SHA-256 hash before running the installer.
 
 ```powershell
-Get-FileHash -Algorithm SHA256 '.\LiveAquarium-Setup-1.9.2.exe'
+Get-FileHash -Algorithm SHA256 '.\LiveAquarium-Setup-1.10.0.exe'
 ```
 
 Installer SHA-256:
 
 ```text
-b790677ff1842feaa578fa48b497ae10b3e46fe25fc08450592fb94b1f036707
+c91b1a9b1ebe5ba8359ac64fc1d4ea9532cf56308be9e4141f71d030cbb586c8
 ```
 
 Gitee lite installer SHA-256:
 
 ```text
-38b627235072b86be8258615726746ca0714734807921c2ac132b25732baf329
+ae813e8a24349b2f4be36bd30ee61612cfc16f1835ce9ce6e849711c512ab838
 ```
 
 ## Features
@@ -44,7 +44,11 @@ Gitee lite installer SHA-256:
 - Add supported rooms by pasting a live-room link; the app detects the platform automatically.
 - Drag, swap, and resize monitoring tiles, and save multiple monitoring presets.
 - Use a single audio focus or Shift-select multiple rooms for simultaneous audio.
+- Apply one of five per-room audio-boost levels with smooth gain transitions and soft limiting.
+- Use in-window or true fullscreen, unified keyboard shortcuts, and independent 100%–400% video zoom and pan per room.
+- Add a streamer to multiple custom groups, each with its own order and All/Online filter.
 - Display real-time danmaku with global and per-room controls and Compact, Normal, and Max smart display strategies.
+- Keep roughly the latest 120 seconds of replay media in bounded process memory and create GIF or MP4 files through on-demand temporary materialization.
 - Show live audience metrics, short-term audience-spike alerts, streamer-live notifications, and viewing-break reminders.
 - Play streams through FFmpeg, D3D11VA, and WPF D3DImage. The installer includes the required .NET and FFmpeg runtimes.
 - Store the room list, layout, volume, and window state locally without saving platform accounts, cookies, or passwords.
@@ -73,8 +77,8 @@ The detailed guides are currently available in Chinese. English documentation wi
 - Sentry may store the telemetry request's connection source IP to provide country/region information. The app does not place IP addresses in telemetry fields and never sends room IDs, streamer names, live titles, stream URLs, danmaku, Windows usernames, hardware identifiers, full local paths, complete settings, or complete logs.
 - Unsent statistics are kept locally for up to 14 days. Clearing local application data also resets the anonymous installation identifier.
 - Uninstalling the application does not automatically remove this local data.
-- Each playing monitored room keeps a bounded compressed audio/video replay cache for roughly the latest 120 seconds under `%LocalAppData%\DouyuMonitor\replay-cache`, solely for local retrospective GIF generation. It is never uploaded, is capped at 512 MiB per room and 2 GiB globally, and orphaned segments are cleaned on the next startup.
-- Generated GIFs are saved to `Pictures\LiveAquarium\GIFs` by default (or the local application-data fallback when Pictures is unavailable). Users control copying, sharing, and deletion; uninstalling does not automatically remove exported GIFs.
+- Each playing monitored room keeps roughly the latest 120 seconds of bounded compressed audio/video in process memory for local replay. Normal viewing does not continuously write media files; the cache is never uploaded, is capped at 512 MiB per room and 2 GiB globally, and is released when the app exits.
+- Preview and export create only bounded temporary media files and clean them afterward. Generated files default to `Highlights\GIFs` and `Highlights\Videos` beside the application, and the output directory can be changed in Settings. Uninstalling does not remove exported files.
 - The application does not store platform accounts, cookies, or passwords.
 
 ## Bug Reports and Security
