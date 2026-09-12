@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "latestVersion": "1.10.1",
+  "latestVersion": "1.10.2",
   "publishedAt": "2026-09-12",
-  "releasePage": "https://gitee.com/ntrmao/DouyuMonitor-Releases/releases#release-v1.10.1",
-  "summary": "识别抖音安全验证页后暂停平台后台请求，并提供应用内官方验证窗口；完成验证后会同步受保护的会话并恢复列表和监控中的房间。",
+  "releasePage": "https://gitee.com/ntrmao/DouyuMonitor-Releases/releases#release-v1.10.2",
+  "summary": "房间状态探测改用低频房间接口，不再读取完整直播页，降低后台状态刷新再次触发安全验证的概率。",
   "installer": {
-    "fileName": "LiveAquarium-Setup-1.10.1.exe",
-    "size": 115171533,
-    "sha256": "5e95bfcba1dc51ac9aef704f33cc2af6f0d969542ac6b7bf13cdab13483608b6",
+    "fileName": "LiveAquarium-Setup-1.10.2.exe",
+    "size": 115177654,
+    "sha256": "23c19bc99c3f207b6be585335275f614e0cbe31700169bd71d12f32336dd7b93",
     "downloadUrls": [
-      "https://github.com/maofanyi/DouyuMonitor-Releases/releases/download/v1.10.1/LiveAquarium-Setup-1.10.1.exe"
+      "https://github.com/maofanyi/DouyuMonitor-Releases/releases/download/v1.10.2/LiveAquarium-Setup-1.10.2.exe"
     ]
   }
 }
