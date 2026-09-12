@@ -3,7 +3,7 @@
 <div align="center">
   <img src="assets/app-icon.png" width="96" alt="直播水族馆图标">
   <h1>直播水族馆</h1>
-  <p><strong>在一个窗口里，同时观看多个直播间。</strong></p>
+  <p><strong>在一个窗口里，同时看懂多个直播间。</strong></p>
   <p>Windows 10 / 11 · 最多 16 路 · 无需登录平台账号</p>
   <p>
     <a href="https://github.com/maofanyi/LiveAquarium-Releases/releases/latest"><strong>下载最新版</strong></a>
@@ -30,12 +30,12 @@
 
 ## 下载与安装
 
-当前版本：**1.10.0**
+当前版本：**1.10.1**
 
 | 渠道 | 安装包 | 说明 |
 | --- | --- | --- |
-| [GitHub Releases](https://github.com/maofanyi/LiveAquarium-Releases/releases/latest) | `LiveAquarium-Setup-1.10.0.exe` | 完整版，推荐 |
-| [Gitee Releases](https://gitee.com/ntrmao/DouyuMonitor-Releases/releases) | `LiveAquarium-Setup-1.10.0-Lite.exe` | 轻量版；首次使用 YouTube 或 Twitch 时下载并校验 `yt-dlp` |
+| [GitHub Releases](https://github.com/maofanyi/LiveAquarium-Releases/releases/latest) | `LiveAquarium-Setup-1.10.1.exe` | 完整版，推荐 |
+| [Gitee Releases](https://gitee.com/ntrmao/DouyuMonitor-Releases/releases) | `LiveAquarium-Setup-1.10.1-Lite.exe` | 轻量版；首次使用 YouTube 或 Twitch 时下载并校验 `yt-dlp` |
 
 系统要求：Windows 10 或 Windows 11，64 位。推荐使用支持 D3D11VA 的显卡和最新稳定驱动；同时播放多路直播会消耗 GPU、CPU、内存和网络带宽。
 
@@ -45,19 +45,19 @@
 软件目前没有 Authenticode 代码签名，Windows 首次运行时可能显示“未知发布者”。请只从上述官方发行页下载安装包，并在需要时核对 SHA-256：
 
 ```powershell
-Get-FileHash -Algorithm SHA256 '.\LiveAquarium-Setup-1.10.0.exe'
+Get-FileHash -Algorithm SHA256 '.\LiveAquarium-Setup-1.10.1.exe'
 ```
 
 GitHub 完整版：
 
 ```text
-c8d6998115a32d5fab134aed48a0415a0f84f7f68409b8e7ce4e620cf2ca1cd5
+5e95bfcba1dc51ac9aef704f33cc2af6f0d969542ac6b7bf13cdab13483608b6
 ```
 
 Gitee 轻量版：
 
 ```text
-0294bdd3d9a22eb04be9812edd2c98616bbebafd3dd85283363ec635f3361c57
+2835997dbb07ca4ad1dffde5a0549b6cc5a4da25525b31ac4461d8208ee1864a
 ```
 
 </details>
