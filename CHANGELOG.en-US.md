@@ -2,19 +2,25 @@
 
 [简体中文](CHANGELOG.md) | [English](CHANGELOG.en-US.md)
 
-## 1.10.2 (2026-09-12)
+## 1.11.0 (2026-09-18)
 
-### Douyin Access Reliability
+### Douyu Account and Chat
 
-- Room-status checks now use a low-frequency room API instead of loading the full live page, reducing the chance that background refreshes trigger another security verification.
-- Douyin sessions are encrypted for the current Windows user with a 12-hour lifetime; audience tasks wait quietly during verification and resume together after it succeeds.
+- Added a Douyu account entry for signing in on an isolated official page, viewing account status and follows, and manually importing followed rooms into the local list.
+- Signed-in users can send plain-text chat in Douyu rooms. Public-room viewing and chat display still work without signing in.
 
-### Verification Window and Installation
+### Monitoring and Window Controls
 
-- Fixed the verification button doing nothing when an in-app update left WebView2 files incomplete; the app now detects this condition and falls back to the system browser.
-- The installer now verifies critical WebView2 files and reports an incomplete installation instead of leaving the app unable to open verification.
+- Added a boss key that mutes before hiding windows and can be reversed from a global hotkey or the tray. The custom title bar includes software fullscreen.
+- Long-press to move monitored tiles and use Ctrl + wheel to resize them. The volume slider has a larger target, and each audible room can be adjusted independently.
 
-### First Run and Diagnostics
+### Replay and Getting Started
 
-- Fixed the getting-started guide being compressed into the top bar after a clean installation, which prevented users from operating the app.
-- Improved anonymous error-report ordering and UI-thread handling so recent verification and installation failures are easier to identify.
+- Replay preview now has audio. Eligible MP4 selections export faster; other selections continue through precise export.
+- Added interactive onboarding and improved layout transitions, drag feedback, and update notices.
+
+### Reliability and Feedback
+
+- Fixed replay generation when codec parameters change and duplicate daily-active telemetry across process restarts.
+- Added feedback entry points in Settings and Diagnostics, with better redacted summaries, error categories, and feature usage metrics.
+- When WebView2 Runtime is missing, the installer and Douyu sign-in and Douyin verification pages offer Microsoft's official download and installation; other features remain available.

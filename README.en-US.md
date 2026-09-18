@@ -4,7 +4,7 @@
   <img src="assets/app-icon.png" width="96" alt="Live Aquarium app icon">
   <h1>Live Aquarium</h1>
   <p><strong>See multiple live rooms clearly in one window.</strong></p>
-  <p>Windows 10 / 11 · Up to 16 rooms · No platform sign-in required</p>
+  <p>Windows 10 / 11 · Up to 16 rooms · Public rooms need no sign-in</p>
   <p>
     <a href="https://github.com/maofanyi/LiveAquarium-Releases/releases/latest"><strong>Download latest</strong></a>
     · <a href="https://maofanyi.github.io/LiveAquarium-Releases/">Illustrated guide</a>
@@ -24,18 +24,18 @@ Live Aquarium is a multi-platform live-stream monitoring app for Windows. It bri
 | --- | --- | --- |
 | Paste a room URL to detect its platform and monitor up to 16 rooms | Use 1×1 through 4×4 layouts, a ready-to-fill 2×2 layout, drag-and-drop, and resizing | Use one audio focus or Shift-select multiple rooms, with independent volume and boost controls |
 | **Live danmaku** | **Instant replay** | **Local-first** |
-| Global and per-room controls with Compact, Normal, and Max display strategies | Keep roughly the latest 120 seconds and export GIF or MP4 with audio | Room lists, layouts, and preferences stay local; platform accounts and cookies are not stored |
+| Global and per-room controls; signed-in Douyu users can send plain-text chat | Keep roughly the latest 120 seconds, preview with audio, and export GIF or MP4 | Rooms and preferences stay local; Douyu session data is encrypted for the current Windows user |
 
-Also included: in-window and true fullscreen, video zoom and pan, live-status notifications, audience metrics, viewing-break reminders, custom groups, and multiple saved monitoring presets.
+Also included: manual import of Douyu follows, long-press tile moving, Ctrl + wheel tile resizing, independent volume, a mute-and-hide boss key, a custom title bar, fullscreen, live-status notifications, and saved monitoring presets. Eligible replay MP4 clips can export faster.
 
 ## Download and Install
 
-Current version: **1.10.2**
+Current version: **1.11.0**
 
 | Channel | Installer | Notes |
 | --- | --- | --- |
-| [GitHub Releases](https://github.com/maofanyi/LiveAquarium-Releases/releases/latest) | `LiveAquarium-Setup-1.10.2.exe` | Full installer; recommended |
-| [Gitee Releases](https://gitee.com/ntrmao/DouyuMonitor-Releases/releases) | `LiveAquarium-Setup-1.10.2-Lite.exe` | Lite installer; downloads and verifies `yt-dlp` when YouTube or Twitch is first used |
+| [GitHub Releases](https://github.com/maofanyi/LiveAquarium-Releases/releases/latest) | `LiveAquarium-Setup-1.11.0.exe` | Full installer; recommended |
+| [Gitee Releases](https://gitee.com/ntrmao/DouyuMonitor-Releases/releases) | `LiveAquarium-Setup-1.11.0-Lite.exe` | Lite installer; downloads and verifies `yt-dlp` when YouTube or Twitch is first used |
 
 Requires 64-bit Windows 10 or Windows 11. A GPU with D3D11VA support and a current stable driver is recommended. Multiple simultaneous streams consume GPU, CPU, memory, and network bandwidth.
 
@@ -45,19 +45,19 @@ Requires 64-bit Windows 10 or Windows 11. A GPU with D3D11VA support and a curre
 The app does not currently have an Authenticode signature, so Windows may show an “Unknown publisher” warning on first launch. Download only from the official release pages above and verify SHA-256 when needed:
 
 ```powershell
-Get-FileHash -Algorithm SHA256 '.\LiveAquarium-Setup-1.10.2.exe'
+Get-FileHash -Algorithm SHA256 '.\LiveAquarium-Setup-1.11.0.exe'
 ```
 
 GitHub full installer:
 
 ```text
-23c19bc99c3f207b6be585335275f614e0cbe31700169bd71d12f32336dd7b93
+7fafb34acf23e1cdc9f824181bf3a9b07fbed05dd1d943163c357e79bd062a57
 ```
 
 Gitee lite installer:
 
 ```text
-04352ead176785d648f4374182f4111973b1a75dac1ff90ec81d91d5a4d43608
+6c8301e81358cad17740a5fc3a524d80564eebcb35a33c0280133c55778a39e1
 ```
 
 </details>
@@ -67,6 +67,8 @@ Gitee lite installer:
 1. Select **Add Streamer** and paste a supported live-room URL.
 2. Choose or adjust a layout, then drag streamers into place.
 3. Click a tile to switch audio focus; hold Shift to select multiple audio rooms.
+
+Open **Settings → Personal account** to sign in through an isolated official Douyu page. Public-room viewing needs no sign-in. `Ctrl+Alt+B` mutes and hides the app; press it again or use the tray icon to restore the windows.
 
 - [Illustrated online guide](https://maofanyi.github.io/LiveAquarium-Releases/)
 - [Chinese text guide](docs/使用说明.md)
@@ -102,6 +104,7 @@ When reporting an issue, include the app version, reproduction steps, and a diag
 
 - Settings are stored in `%LocalAppData%\DouyuMonitor\settings.json`.
 - Logs are stored in `%LocalAppData%\DouyuMonitor\logs\monitor-YYYYMMDD.log`.
+- Douyu session data and credentials needed to send chat are encrypted for the current Windows user and stored separately from ordinary settings; signing out clears them. The app does not request a platform password.
 - Anonymous statistics use a randomly generated installation ID and send one daily summary of usage time, platform and layout features, and the country/region code from Windows regional settings. Unsent data is retained locally for up to 14 days.
 - Ordinary errors remain aggregated locally. At most one clearly fatal error is sent automatically per installation per day, and users can explicitly send a redacted report from Diagnostics. Sentry may infer country/region from the connection source IP, but the app does not put the IP into telemetry fields.
 - Room IDs, streamer names, live titles, stream URLs, danmaku, Windows usernames, hardware identifiers, full local paths, complete settings, and complete logs are not sent.

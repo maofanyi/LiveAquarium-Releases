@@ -3,8 +3,8 @@
 <div align="center">
   <img src="assets/app-icon.png" width="96" alt="直播水族馆图标">
   <h1>直播水族馆</h1>
-  <p><strong>在一个窗口里，同时观看多个直播间。</strong></p>
-  <p>Windows 10 / 11 · 最多 16 路 · 无需登录平台账号</p>
+  <p><strong>在一个窗口里，同时看懂多个直播间。</strong></p>
+  <p>Windows 10 / 11 · 最多 16 路 · 公开房间无需登录</p>
   <p>
     <a href="https://github.com/maofanyi/LiveAquarium-Releases/releases/latest"><strong>下载最新版</strong></a>
     · <a href="https://maofanyi.github.io/LiveAquarium-Releases/">图解使用说明</a>
@@ -24,18 +24,18 @@
 | --- | --- | --- |
 | 粘贴直播间链接即可识别平台，最多同时监控 16 路 | 支持 1×1 至 4×4、可直接拖入房间的 2×2 默认布局、自由拖动与缩放 | 单路音频焦点或 Shift 多选，多房间独立音量与音量增强 |
 | **实时弹幕** | **精彩回溯** | **本地优先** |
-| 全局及单房间开关，支持精简、普通和 Max 智能显示策略 | 保留最近约 120 秒，可导出 GIF 或带声音 MP4 | 房间、布局和偏好保存在本机，不保存平台账号或 Cookie |
+| 全局及单房间开关；斗鱼登录后可发送普通文本弹幕 | 保留最近约 120 秒，支持有声预览及 GIF/MP4 导出 | 房间、布局和偏好保存在本机；斗鱼会话在当前 Windows 用户范围加密保存 |
 
-此外还支持窗口全屏、系统全屏、视频缩放与平移、直播状态提醒、贵宾人数显示、观看休息提醒、自定义分组和多套监控方案。
+此外还支持斗鱼本人关注的手动增量同步、长按拖动画面、Ctrl + 滚轮调整卡片尺寸、独立音量、老板键静音隐藏、自定义标题栏、窗口全屏、直播状态提醒和多套监控方案。符合条件的回溯 MP4 可快速导出。
 
 ## 下载与安装
 
-当前版本：**1.10.2**
+当前版本：**1.11.0**
 
 | 渠道 | 安装包 | 说明 |
 | --- | --- | --- |
-| [GitHub Releases](https://github.com/maofanyi/LiveAquarium-Releases/releases/latest) | `LiveAquarium-Setup-1.10.2.exe` | 完整版，推荐 |
-| [Gitee Releases](https://gitee.com/ntrmao/DouyuMonitor-Releases/releases) | `LiveAquarium-Setup-1.10.2-Lite.exe` | 轻量版；首次使用 YouTube 或 Twitch 时下载并校验 `yt-dlp` |
+| [GitHub Releases](https://github.com/maofanyi/LiveAquarium-Releases/releases/latest) | `LiveAquarium-Setup-1.11.0.exe` | 完整版，推荐 |
+| [Gitee Releases](https://gitee.com/ntrmao/DouyuMonitor-Releases/releases) | `LiveAquarium-Setup-1.11.0-Lite.exe` | 轻量版；首次使用 YouTube 或 Twitch 时下载并校验 `yt-dlp` |
 
 系统要求：Windows 10 或 Windows 11，64 位。推荐使用支持 D3D11VA 的显卡和最新稳定驱动；同时播放多路直播会消耗 GPU、CPU、内存和网络带宽。
 
@@ -45,19 +45,19 @@
 软件目前没有 Authenticode 代码签名，Windows 首次运行时可能显示“未知发布者”。请只从上述官方发行页下载安装包，并在需要时核对 SHA-256：
 
 ```powershell
-Get-FileHash -Algorithm SHA256 '.\LiveAquarium-Setup-1.10.2.exe'
+Get-FileHash -Algorithm SHA256 '.\LiveAquarium-Setup-1.11.0.exe'
 ```
 
 GitHub 完整版：
 
 ```text
-23c19bc99c3f207b6be585335275f614e0cbe31700169bd71d12f32336dd7b93
+7fafb34acf23e1cdc9f824181bf3a9b07fbed05dd1d943163c357e79bd062a57
 ```
 
 Gitee 轻量版：
 
 ```text
-04352ead176785d648f4374182f4111973b1a75dac1ff90ec81d91d5a4d43608
+6c8301e81358cad17740a5fc3a524d80564eebcb35a33c0280133c55778a39e1
 ```
 
 </details>
@@ -67,6 +67,8 @@ Gitee 轻量版：
 1. 点击“添加主播”，粘贴受支持平台的直播间链接。
 2. 选择或调整布局，把主播拖入需要的位置。
 3. 点击画面切换音频焦点；按住 Shift 可同时选择多路音频。
+
+斗鱼账号功能可从“设置 → 个人账号”进入，通过隔离的斗鱼官方页面登录；公开房间观看无需登录。`Ctrl+Alt+B` 可静音并隐藏窗口，再次按下或点击托盘图标恢复。
 
 - [在线图解使用说明](https://maofanyi.github.io/LiveAquarium-Releases/)
 - [文字使用说明](docs/使用说明.md)
@@ -102,6 +104,7 @@ Gitee 轻量版：
 
 - 设置保存在 `%LocalAppData%\DouyuMonitor\settings.json`。
 - 日志保存在 `%LocalAppData%\DouyuMonitor\logs\monitor-YYYYMMDD.log`。
+- 斗鱼会话及发送所需凭据在当前 Windows 用户范围加密保存，与普通设置分离；登出时清除。应用不索取平台密码。
 - 匿名统计使用随机生成的安装标识，每天汇总一次使用时长、平台和布局功能以及 Windows 区域设置对应的国家/地区代码；未发送数据最多在本地保留 14 天。
 - 普通错误仅在本地聚合；明确致命错误每个安装每天最多自动发送一条，也可从诊断窗口主动发送脱敏报告。Sentry 可能依据连接来源 IP 提供国家/地区信息，但应用不会把 IP 写入遥测字段。
 - 不发送房间号、主播名称、直播标题、直播地址、弹幕、Windows 用户名、硬件标识、完整本地路径、完整设置或完整日志。
