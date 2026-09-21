@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "latestVersion": "1.11.0",
-  "publishedAt": "2026-09-18",
-  "releasePage": "https://gitee.com/ntrmao/DouyuMonitor-Releases/releases#release-v1.11.0",
-  "summary": "新增斗鱼个人账号入口，可在隔离的官方页面登录、查看账号状态与本人关注，并手动将关注直播间增量同步到本地列表。",
+  "latestVersion": "1.11.1",
+  "publishedAt": "2026-09-22",
+  "releasePage": "https://gitee.com/ntrmao/DouyuMonitor-Releases/releases#release-v1.11.1",
+  "summary": "修复斗鱼直播长时间播放时可能周期性断流的问题，提升画面和音频的连续性。",
   "installer": {
-    "fileName": "LiveAquarium-Setup-1.11.0.exe",
-    "size": 115292791,
-    "sha256": "7fafb34acf23e1cdc9f824181bf3a9b07fbed05dd1d943163c357e79bd062a57",
+    "fileName": "LiveAquarium-Setup-1.11.1.exe",
+    "size": 115288822,
+    "sha256": "40e384db4658bc0cb116fb4a31e1c08aadf12e0995f044de26883bd580b730bf",
     "downloadUrls": [
-      "https://github.com/maofanyi/DouyuMonitor-Releases/releases/download/v1.11.0/LiveAquarium-Setup-1.11.0.exe"
+      "https://github.com/maofanyi/DouyuMonitor-Releases/releases/download/v1.11.1/LiveAquarium-Setup-1.11.1.exe"
     ]
   }
 }
