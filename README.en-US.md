@@ -30,12 +30,12 @@ Also included: manual import of Douyu follows, long-press tile moving, Ctrl + wh
 
 ## Download and Install
 
-Current version: **1.11.1**
+Current version: **1.11.2**
 
 | Channel | Installer | Notes |
 | --- | --- | --- |
-| [GitHub Releases](https://github.com/maofanyi/LiveAquarium-Releases/releases/latest) | `LiveAquarium-Setup-1.11.1.exe` | Full installer; recommended |
-| [Gitee Releases](https://gitee.com/ntrmao/DouyuMonitor-Releases/releases) | `LiveAquarium-Setup-1.11.1-Lite.exe` | Lite installer; downloads and verifies `yt-dlp` when YouTube or Twitch is first used |
+| [GitHub Releases](https://github.com/maofanyi/LiveAquarium-Releases/releases/latest) | `LiveAquarium-Setup-1.11.2.exe` | Full installer; recommended |
+| [Gitee Releases](https://gitee.com/ntrmao/DouyuMonitor-Releases/releases) | `LiveAquarium-Setup-1.11.2-Lite.exe` | Lite installer; downloads and verifies `yt-dlp` when YouTube or Twitch is first used |
 
 Requires 64-bit Windows 10 or Windows 11. A GPU with D3D11VA support and a current stable driver is recommended. Multiple simultaneous streams consume GPU, CPU, memory, and network bandwidth.
 
@@ -45,19 +45,19 @@ Requires 64-bit Windows 10 or Windows 11. A GPU with D3D11VA support and a curre
 The app does not currently have an Authenticode signature, so Windows may show an “Unknown publisher” warning on first launch. Download only from the official release pages above and verify SHA-256 when needed:
 
 ```powershell
-Get-FileHash -Algorithm SHA256 '.\LiveAquarium-Setup-1.11.1.exe'
+Get-FileHash -Algorithm SHA256 '.\LiveAquarium-Setup-1.11.2.exe'
 ```
 
 GitHub full installer:
 
 ```text
-40e384db4658bc0cb116fb4a31e1c08aadf12e0995f044de26883bd580b730bf
+b7e11199d52150a3f6c50de46b9d3de7dc6f00a3cf54be2da002ab038b7e8be0
 ```
 
 Gitee lite installer:
 
 ```text
-807092f448a74585de1f02aa960e989231ce31cdb973019b1db08af0bdd72525
+ed5464c8457a0b5b5274974266b91a872c1faaa87ae285fa2523f8ecbc0d165f
 ```
 
 </details>
