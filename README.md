@@ -30,12 +30,12 @@
 
 ## 下载与安装
 
-当前版本：**1.11.2**
+当前版本：**1.12.0**
 
 | 渠道 | 安装包 | 说明 |
 | --- | --- | --- |
-| [GitHub Releases](https://github.com/maofanyi/LiveAquarium-Releases/releases/latest) | `LiveAquarium-Setup-1.11.2.exe` | 完整版，推荐 |
-| [Gitee Releases](https://gitee.com/ntrmao/DouyuMonitor-Releases/releases) | `LiveAquarium-Setup-1.11.2-Lite.exe` | 轻量版；首次使用 YouTube 或 Twitch 时下载并校验 `yt-dlp` |
+| [GitHub Releases](https://github.com/maofanyi/LiveAquarium-Releases/releases/latest) | `LiveAquarium-Setup-1.12.0.exe` | 完整版，推荐 |
+| [Gitee Releases](https://gitee.com/ntrmao/DouyuMonitor-Releases/releases) | `LiveAquarium-Setup-1.12.0-Lite.exe` | 轻量版；首次使用 YouTube 或 Twitch 时下载并校验 `yt-dlp` |
 
 系统要求：Windows 10 或 Windows 11，64 位。推荐使用支持 D3D11VA 的显卡和最新稳定驱动；同时播放多路直播会消耗 GPU、CPU、内存和网络带宽。
 
@@ -45,19 +45,19 @@
 软件目前没有 Authenticode 代码签名，Windows 首次运行时可能显示“未知发布者”。请只从上述官方发行页下载安装包，并在需要时核对 SHA-256：
 
 ```powershell
-Get-FileHash -Algorithm SHA256 '.\LiveAquarium-Setup-1.11.2.exe'
+Get-FileHash -Algorithm SHA256 '.\LiveAquarium-Setup-1.12.0.exe'
 ```
 
 GitHub 完整版：
 
 ```text
-b7e11199d52150a3f6c50de46b9d3de7dc6f00a3cf54be2da002ab038b7e8be0
+376840ec2e821cf549886c47f799a03603565d2fa9d3b4a422c4e8b24254fc27
 ```
 
 Gitee 轻量版：
 
 ```text
-ed5464c8457a0b5b5274974266b91a872c1faaa87ae285fa2523f8ecbc0d165f
+df6f78978404fb8c2c079b815d95ef28a5c3909f09abfbab4f0aae4c265ff620
 ```
 
 </details>
@@ -102,8 +102,8 @@ ed5464c8457a0b5b5274974266b91a872c1faaa87ae285fa2523f8ecbc0d165f
 <details>
 <summary><strong>查看本地数据、匿名统计与回溯缓存说明</strong></summary>
 
-- 设置保存在 `%LocalAppData%\DouyuMonitor\settings.json`。
-- 日志保存在 `%LocalAppData%\DouyuMonitor\logs\monitor-YYYYMMDD.log`。
+- 设置保存在 `%LocalAppData%\LiveAquarium\settings.json`。
+- 日志保存在 `%LocalAppData%\LiveAquarium\logs\monitor-YYYYMMDD.log`。
 - 斗鱼会话及发送所需凭据在当前 Windows 用户范围加密保存，与普通设置分离；登出时清除。应用不索取平台密码。
 - 匿名统计使用随机生成的安装标识，每天汇总一次使用时长、平台和布局功能以及 Windows 区域设置对应的国家/地区代码；未发送数据最多在本地保留 14 天。
 - 普通错误仅在本地聚合；明确致命错误每个安装每天最多自动发送一条，也可从诊断窗口主动发送脱敏报告。Sentry 可能依据连接来源 IP 提供国家/地区信息，但应用不会把 IP 写入遥测字段。

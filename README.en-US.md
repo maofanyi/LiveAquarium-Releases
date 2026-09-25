@@ -30,12 +30,12 @@ Also included: manual import of Douyu follows, long-press tile moving, Ctrl + wh
 
 ## Download and Install
 
-Current version: **1.11.2**
+Current version: **1.12.0**
 
 | Channel | Installer | Notes |
 | --- | --- | --- |
-| [GitHub Releases](https://github.com/maofanyi/LiveAquarium-Releases/releases/latest) | `LiveAquarium-Setup-1.11.2.exe` | Full installer; recommended |
-| [Gitee Releases](https://gitee.com/ntrmao/DouyuMonitor-Releases/releases) | `LiveAquarium-Setup-1.11.2-Lite.exe` | Lite installer; downloads and verifies `yt-dlp` when YouTube or Twitch is first used |
+| [GitHub Releases](https://github.com/maofanyi/LiveAquarium-Releases/releases/latest) | `LiveAquarium-Setup-1.12.0.exe` | Full installer; recommended |
+| [Gitee Releases](https://gitee.com/ntrmao/DouyuMonitor-Releases/releases) | `LiveAquarium-Setup-1.12.0-Lite.exe` | Lite installer; downloads and verifies `yt-dlp` when YouTube or Twitch is first used |
 
 Requires 64-bit Windows 10 or Windows 11. A GPU with D3D11VA support and a current stable driver is recommended. Multiple simultaneous streams consume GPU, CPU, memory, and network bandwidth.
 
@@ -45,19 +45,19 @@ Requires 64-bit Windows 10 or Windows 11. A GPU with D3D11VA support and a curre
 The app does not currently have an Authenticode signature, so Windows may show an “Unknown publisher” warning on first launch. Download only from the official release pages above and verify SHA-256 when needed:
 
 ```powershell
-Get-FileHash -Algorithm SHA256 '.\LiveAquarium-Setup-1.11.2.exe'
+Get-FileHash -Algorithm SHA256 '.\LiveAquarium-Setup-1.12.0.exe'
 ```
 
 GitHub full installer:
 
 ```text
-b7e11199d52150a3f6c50de46b9d3de7dc6f00a3cf54be2da002ab038b7e8be0
+376840ec2e821cf549886c47f799a03603565d2fa9d3b4a422c4e8b24254fc27
 ```
 
 Gitee lite installer:
 
 ```text
-ed5464c8457a0b5b5274974266b91a872c1faaa87ae285fa2523f8ecbc0d165f
+df6f78978404fb8c2c079b815d95ef28a5c3909f09abfbab4f0aae4c265ff620
 ```
 
 </details>
@@ -102,8 +102,8 @@ When reporting an issue, include the app version, reproduction steps, and a diag
 <details>
 <summary><strong>Local data, anonymous statistics, and replay-cache details</strong></summary>
 
-- Settings are stored in `%LocalAppData%\DouyuMonitor\settings.json`.
-- Logs are stored in `%LocalAppData%\DouyuMonitor\logs\monitor-YYYYMMDD.log`.
+- Settings are stored in `%LocalAppData%\LiveAquarium\settings.json`.
+- Logs are stored in `%LocalAppData%\LiveAquarium\logs\monitor-YYYYMMDD.log`.
 - Douyu session data and credentials needed to send chat are encrypted for the current Windows user and stored separately from ordinary settings; signing out clears them. The app does not request a platform password.
 - Anonymous statistics use a randomly generated installation ID and send one daily summary of usage time, platform and layout features, and the country/region code from Windows regional settings. Unsent data is retained locally for up to 14 days.
 - Ordinary errors remain aggregated locally. At most one clearly fatal error is sent automatically per installation per day, and users can explicitly send a redacted report from Diagnostics. Sentry may infer country/region from the connection source IP, but the app does not put the IP into telemetry fields.
