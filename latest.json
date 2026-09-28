@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "latestVersion": "1.12.0",
-  "publishedAt": "2026-09-26",
-  "releasePage": "https://gitee.com/ntrmao/DouyuMonitor-Releases/releases#release-v1.12.0",
-  "summary": "新增主播搜索、独立房间音量、斗鱼登录态高画质、弹幕 +1 和评论阅读优化，并改进播放续流、网络兼容及安装迁移稳定性。\n\n中秋佳节，祝大家阖家团圆，平安喜乐！",
+  "latestVersion": "1.12.1",
+  "publishedAt": "2026-09-28",
+  "releasePage": "https://gitee.com/ntrmao/DouyuMonitor-Releases/releases#release-v1.12.1",
+  "summary": "喜欢团播的小伙伴～有福啦！\n\n新增斗鱼活动分区：可查看同活动主播及开播状态，支持搜索、快速临时监控，并可按需加入主播列表或分组。",
   "installer": {
-    "fileName": "LiveAquarium-Setup-1.12.0.exe",
-    "size": 115423257,
-    "sha256": "376840ec2e821cf549886c47f799a03603565d2fa9d3b4a422c4e8b24254fc27",
+    "fileName": "LiveAquarium-Setup-1.12.1.exe",
+    "size": 115473741,
+    "sha256": "68f09d68700114f9370cbf6581fc649e01594c130b639bdec62abce1bb0f7fb5",
     "downloadUrls": [
-      "https://github.com/maofanyi/DouyuMonitor-Releases/releases/download/v1.12.0/LiveAquarium-Setup-1.12.0.exe"
+      "https://github.com/maofanyi/DouyuMonitor-Releases/releases/download/v1.12.1/LiveAquarium-Setup-1.12.1.exe"
     ]
   }
 }

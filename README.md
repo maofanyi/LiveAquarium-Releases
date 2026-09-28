@@ -26,16 +26,16 @@
 | **实时弹幕** | **精彩回溯** | **本地优先** |
 | 全局及单房间开关；斗鱼登录后可发送普通文本弹幕 | 保留最近约 120 秒，支持有声预览及 GIF/MP4 导出 | 房间、布局和偏好保存在本机；斗鱼会话在当前 Windows 用户范围加密保存 |
 
-此外还支持斗鱼本人关注的手动增量同步、长按拖动画面、Ctrl + 滚轮调整卡片尺寸、独立音量、老板键静音隐藏、自定义标题栏、窗口全屏、直播状态提醒和多套监控方案。符合条件的回溯 MP4 可快速导出。
+此外还支持斗鱼本人关注的手动增量同步、斗鱼活动分区与临时监控、长按拖动画面、Ctrl + 滚轮调整卡片尺寸、独立音量、老板键静音隐藏、自定义标题栏、窗口全屏、直播状态提醒、受控官方消息和多套监控方案。符合条件的回溯 MP4 可快速导出。
 
 ## 下载与安装
 
-当前版本：**1.12.0**
+当前版本：**1.12.1**
 
 | 渠道 | 安装包 | 说明 |
 | --- | --- | --- |
-| [GitHub Releases](https://github.com/maofanyi/LiveAquarium-Releases/releases/latest) | `LiveAquarium-Setup-1.12.0.exe` | 完整版，推荐 |
-| [Gitee Releases](https://gitee.com/ntrmao/DouyuMonitor-Releases/releases) | `LiveAquarium-Setup-1.12.0-Lite.exe` | 轻量版；首次使用 YouTube 或 Twitch 时下载并校验 `yt-dlp` |
+| [GitHub Releases](https://github.com/maofanyi/LiveAquarium-Releases/releases/latest) | `LiveAquarium-Setup-1.12.1.exe` | 完整版，推荐 |
+| [Gitee Releases](https://gitee.com/ntrmao/DouyuMonitor-Releases/releases) | `LiveAquarium-Setup-1.12.1-Lite.exe` | 轻量版；首次使用 YouTube 或 Twitch 时下载并校验 `yt-dlp` |
 
 系统要求：Windows 10 或 Windows 11，64 位。推荐使用支持 D3D11VA 的显卡和最新稳定驱动；同时播放多路直播会消耗 GPU、CPU、内存和网络带宽。
 
@@ -45,19 +45,19 @@
 软件目前没有 Authenticode 代码签名，Windows 首次运行时可能显示“未知发布者”。请只从上述官方发行页下载安装包，并在需要时核对 SHA-256：
 
 ```powershell
-Get-FileHash -Algorithm SHA256 '.\LiveAquarium-Setup-1.12.0.exe'
+Get-FileHash -Algorithm SHA256 '.\LiveAquarium-Setup-1.12.1.exe'
 ```
 
 GitHub 完整版：
 
 ```text
-376840ec2e821cf549886c47f799a03603565d2fa9d3b4a422c4e8b24254fc27
+68f09d68700114f9370cbf6581fc649e01594c130b639bdec62abce1bb0f7fb5
 ```
 
 Gitee 轻量版：
 
 ```text
-df6f78978404fb8c2c079b815d95ef28a5c3909f09abfbab4f0aae4c265ff620
+d90614f815f8e948d7833acbbbfd5ed1cc0ff1b2e7d18150ffa1f61dd9a5f240
 ```
 
 </details>

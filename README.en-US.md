@@ -26,16 +26,16 @@ Live Aquarium is a multi-platform live-stream monitoring app for Windows. It bri
 | **Live danmaku** | **Instant replay** | **Local-first** |
 | Global and per-room controls; signed-in Douyu users can send plain-text chat | Keep roughly the latest 120 seconds, preview with audio, and export GIF or MP4 | Rooms and preferences stay local; Douyu session data is encrypted for the current Windows user |
 
-Also included: manual import of Douyu follows, long-press tile moving, Ctrl + wheel tile resizing, independent volume, a mute-and-hide boss key, a custom title bar, fullscreen, live-status notifications, and saved monitoring presets. Eligible replay MP4 clips can export faster.
+Also included: manual import of Douyu follows, Douyu activity sections with temporary monitoring, long-press tile moving, Ctrl + wheel tile resizing, independent volume, a mute-and-hide boss key, a custom title bar, fullscreen, live-status notifications, controlled official notices, and saved monitoring presets. Eligible replay MP4 clips can export faster.
 
 ## Download and Install
 
-Current version: **1.12.0**
+Current version: **1.12.1**
 
 | Channel | Installer | Notes |
 | --- | --- | --- |
-| [GitHub Releases](https://github.com/maofanyi/LiveAquarium-Releases/releases/latest) | `LiveAquarium-Setup-1.12.0.exe` | Full installer; recommended |
-| [Gitee Releases](https://gitee.com/ntrmao/DouyuMonitor-Releases/releases) | `LiveAquarium-Setup-1.12.0-Lite.exe` | Lite installer; downloads and verifies `yt-dlp` when YouTube or Twitch is first used |
+| [GitHub Releases](https://github.com/maofanyi/LiveAquarium-Releases/releases/latest) | `LiveAquarium-Setup-1.12.1.exe` | Full installer; recommended |
+| [Gitee Releases](https://gitee.com/ntrmao/DouyuMonitor-Releases/releases) | `LiveAquarium-Setup-1.12.1-Lite.exe` | Lite installer; downloads and verifies `yt-dlp` when YouTube or Twitch is first used |
 
 Requires 64-bit Windows 10 or Windows 11. A GPU with D3D11VA support and a current stable driver is recommended. Multiple simultaneous streams consume GPU, CPU, memory, and network bandwidth.
 
@@ -45,19 +45,19 @@ Requires 64-bit Windows 10 or Windows 11. A GPU with D3D11VA support and a curre
 The app does not currently have an Authenticode signature, so Windows may show an “Unknown publisher” warning on first launch. Download only from the official release pages above and verify SHA-256 when needed:
 
 ```powershell
-Get-FileHash -Algorithm SHA256 '.\LiveAquarium-Setup-1.12.0.exe'
+Get-FileHash -Algorithm SHA256 '.\LiveAquarium-Setup-1.12.1.exe'
 ```
 
 GitHub full installer:
 
 ```text
-376840ec2e821cf549886c47f799a03603565d2fa9d3b4a422c4e8b24254fc27
+68f09d68700114f9370cbf6581fc649e01594c130b639bdec62abce1bb0f7fb5
 ```
 
 Gitee lite installer:
 
 ```text
-df6f78978404fb8c2c079b815d95ef28a5c3909f09abfbab4f0aae4c265ff620
+d90614f815f8e948d7833acbbbfd5ed1cc0ff1b2e7d18150ffa1f61dd9a5f240
 ```
 
 </details>
