@@ -30,12 +30,12 @@ Also included: manual import of Douyu follows, Douyu activity sections with temp
 
 ## Download and Install
 
-Current version: **1.12.1**
+Current version: **1.13.0**
 
 | Channel | Installer | Notes |
 | --- | --- | --- |
-| [GitHub Releases](https://github.com/maofanyi/LiveAquarium-Releases/releases/latest) | `LiveAquarium-Setup-1.12.1.exe` | Full installer; recommended |
-| [Gitee Releases](https://gitee.com/ntrmao/DouyuMonitor-Releases/releases) | `LiveAquarium-Setup-1.12.1-Lite.exe` | Lite installer; downloads and verifies `yt-dlp` when YouTube or Twitch is first used |
+| [GitHub Releases](https://github.com/maofanyi/LiveAquarium-Releases/releases/latest) | `LiveAquarium-Setup-1.13.0.exe` | Full installer; recommended |
+| [Gitee Releases](https://gitee.com/ntrmao/DouyuMonitor-Releases/releases) | `LiveAquarium-Setup-1.13.0-Lite.exe` | Lite installer; downloads and verifies `yt-dlp` when YouTube or Twitch is first used |
 
 Requires 64-bit Windows 10 or Windows 11. A GPU with D3D11VA support and a current stable driver is recommended. Multiple simultaneous streams consume GPU, CPU, memory, and network bandwidth.
 
@@ -45,19 +45,19 @@ Requires 64-bit Windows 10 or Windows 11. A GPU with D3D11VA support and a curre
 The app does not currently have an Authenticode signature, so Windows may show an “Unknown publisher” warning on first launch. Download only from the official release pages above and verify SHA-256 when needed:
 
 ```powershell
-Get-FileHash -Algorithm SHA256 '.\LiveAquarium-Setup-1.12.1.exe'
+Get-FileHash -Algorithm SHA256 '.\LiveAquarium-Setup-1.13.0.exe'
 ```
 
 GitHub full installer:
 
 ```text
-68f09d68700114f9370cbf6581fc649e01594c130b639bdec62abce1bb0f7fb5
+ad5d3023e116347fe1ca004555956c973d2bc212d1ddb8b1a694eafce37bf938
 ```
 
 Gitee lite installer:
 
 ```text
-d90614f815f8e948d7833acbbbfd5ed1cc0ff1b2e7d18150ffa1f61dd9a5f240
+7f3fd0158efadbdda13348ef86ace99c3f67b675a5cab6c431c811b1d73c1628
 ```
 
 </details>
@@ -115,3 +115,7 @@ When reporting an issue, include the app version, reproduction steps, and a diag
 </details>
 
 Do not repackage the installer, present modified builds as official, or distribute unofficial installers under the project name or icon without permission.
+
+### New in 1.13.0
+
+Bilibili accounts, follow synchronization and chat interaction; Douyu gift statistics, group management and title styling. Gift amounts are list-price estimates, not actual payments or income. Records remain on your device for today and the preceding two days, then expire. Gift details, amounts and user identities are not uploaded.

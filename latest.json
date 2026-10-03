@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "latestVersion": "1.12.1",
-  "publishedAt": "2026-09-28",
-  "releasePage": "https://gitee.com/ntrmao/DouyuMonitor-Releases/releases#release-v1.12.1",
-  "summary": "喜欢团播的小伙伴～有福啦！\n\n新增斗鱼活动分区：可查看同活动主播及开播状态，支持搜索、快速临时监控，并可按需加入主播列表或分组。",
+  "latestVersion": "1.13.0",
+  "publishedAt": "2026-10-03",
+  "releasePage": "https://gitee.com/ntrmao/DouyuMonitor-Releases/releases#release-v1.13.0",
+  "summary": "新增 B 站账号登录与弹幕互动、斗鱼礼物统计（不保真），完善分组和标题样式管理，提升使用体验与稳定性。",
   "installer": {
-    "fileName": "LiveAquarium-Setup-1.12.1.exe",
-    "size": 115473741,
-    "sha256": "68f09d68700114f9370cbf6581fc649e01594c130b639bdec62abce1bb0f7fb5",
+    "fileName": "LiveAquarium-Setup-1.13.0.exe",
+    "size": 115607743,
+    "sha256": "ad5d3023e116347fe1ca004555956c973d2bc212d1ddb8b1a694eafce37bf938",
     "downloadUrls": [
-      "https://github.com/maofanyi/DouyuMonitor-Releases/releases/download/v1.12.1/LiveAquarium-Setup-1.12.1.exe"
+      "https://github.com/maofanyi/DouyuMonitor-Releases/releases/download/v1.13.0/LiveAquarium-Setup-1.13.0.exe"
     ]
   }
 }
