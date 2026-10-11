@@ -1,15 +1,12 @@
 [简体中文](README.md) | [English](README.en-US.md)
 
-> **Urgent notice (2026-10-11): version 1.14.0 has been withdrawn. Please do not upgrade.**
-> This version can fail to load Douyu rooms when signed out or after signing out while using source quality. A fix is in progress. Please use the [official 1.13.0 installer](https://github.com/maofanyi/LiveAquarium-Releases/releases/tag/v1.13.0) for now. Keep your settings when reverting; deleting application data is unnecessary.
-
 <div align="center">
   <img src="assets/app-icon.png" width="96" alt="Live Aquarium app icon">
   <h1>Live Aquarium</h1>
   <p><strong>See multiple live rooms clearly in one window.</strong></p>
   <p>Windows 10 / 11 · Up to 16 rooms · Public rooms need no sign-in</p>
   <p>
-    <a href="https://github.com/maofanyi/LiveAquarium-Releases/releases/tag/v1.13.0"><strong>Download latest</strong></a>
+    <a href="https://github.com/maofanyi/LiveAquarium-Releases/releases/latest"><strong>Download latest</strong></a>
     · <a href="https://maofanyi.github.io/LiveAquarium-Releases/">Illustrated guide</a>
     · <a href="#community-and-support">Community and feedback</a>
   </p>
@@ -33,12 +30,12 @@ Also included: manual import of Douyu follows, Douyu activity sections with temp
 
 ## Download and Install
 
-Current version: **1.13.0**
+Current version: **1.14.1**
 
 | Channel | Installer | Notes |
 | --- | --- | --- |
-| [GitHub Releases](https://github.com/maofanyi/LiveAquarium-Releases/releases/tag/v1.13.0) | `LiveAquarium-Setup-1.13.0.exe` | Full installer; recommended |
-| [Gitee Releases](https://gitee.com/ntrmao/DouyuMonitor-Releases/releases/tag/v1.13.0) | `LiveAquarium-Setup-1.13.0-Lite.exe` | Lite installer; downloads and verifies `yt-dlp` when YouTube or Twitch is first used |
+| [GitHub Releases](https://github.com/maofanyi/LiveAquarium-Releases/releases/latest) | `LiveAquarium-Setup-1.14.1.exe` | Full installer; recommended |
+| [Gitee Releases](https://gitee.com/ntrmao/DouyuMonitor-Releases/releases) | `LiveAquarium-Setup-1.14.1-Lite.exe` | Lite installer; downloads and verifies `yt-dlp` when YouTube or Twitch is first used |
 
 Requires 64-bit Windows 10 or Windows 11. A GPU with D3D11VA support and a current stable driver is recommended. Multiple simultaneous streams consume GPU, CPU, memory, and network bandwidth.
 
@@ -48,19 +45,19 @@ Requires 64-bit Windows 10 or Windows 11. A GPU with D3D11VA support and a curre
 The app does not currently have an Authenticode signature, so Windows may show an “Unknown publisher” warning on first launch. Download only from the official release pages above and verify SHA-256 when needed:
 
 ```powershell
-Get-FileHash -Algorithm SHA256 '.\LiveAquarium-Setup-1.13.0.exe'
+Get-FileHash -Algorithm SHA256 '.\LiveAquarium-Setup-1.14.1.exe'
 ```
 
 GitHub full installer:
 
 ```text
-ad5d3023e116347fe1ca004555956c973d2bc212d1ddb8b1a694eafce37bf938
+81c6e907229285b200618cf6cb6035f71e6cecc5d2916ecceafd7cd18883e06e
 ```
 
 Gitee lite installer:
 
 ```text
-7f3fd0158efadbdda13348ef86ace99c3f67b675a5cab6c431c811b1d73c1628
+c741b7ce01f1ad9dff20b6715ab704898334447aa00b461ab34da6204a50a9ca
 ```
 
 </details>

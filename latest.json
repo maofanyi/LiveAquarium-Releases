@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "latestVersion": "1.13.0",
-  "publishedAt": "2026-10-03",
-  "releasePage": "https://github.com/maofanyi/LiveAquarium-Releases/releases/tag/v1.13.0",
-  "summary": "新增 B 站账号登录与弹幕互动、斗鱼礼物统计（不保真），完善分组和标题样式管理，提升使用体验与稳定性。",
+  "latestVersion": "1.14.1",
+  "publishedAt": "2026-10-11",
+  "releasePage": "https://gitee.com/ntrmao/DouyuMonitor-Releases/releases#release-v1.14.1",
+  "summary": "修复部分斗鱼直播间未登录时无法播放的问题，退出登录后自动切换到可用画质。",
   "installer": {
-    "fileName": "LiveAquarium-Setup-1.13.0.exe",
-    "size": 115607743,
-    "sha256": "ad5d3023e116347fe1ca004555956c973d2bc212d1ddb8b1a694eafce37bf938",
+    "fileName": "LiveAquarium-Setup-1.14.1.exe",
+    "size": 115700248,
+    "sha256": "81c6e907229285b200618cf6cb6035f71e6cecc5d2916ecceafd7cd18883e06e",
     "downloadUrls": [
-      "https://github.com/maofanyi/DouyuMonitor-Releases/releases/download/v1.13.0/LiveAquarium-Setup-1.13.0.exe"
+      "https://github.com/maofanyi/DouyuMonitor-Releases/releases/download/v1.14.1/LiveAquarium-Setup-1.14.1.exe"
     ]
   }
 }
