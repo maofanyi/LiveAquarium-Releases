@@ -38,7 +38,7 @@
 | 渠道 | 安装包 | 说明 |
 | --- | --- | --- |
 | [GitHub Releases](https://github.com/maofanyi/LiveAquarium-Releases/releases/tag/v1.13.0) | `LiveAquarium-Setup-1.13.0.exe` | 完整版，推荐 |
-| [Gitee Releases](https://gitee.com/ntrmao/DouyuMonitor-Releases/releases) | `LiveAquarium-Setup-1.13.0-Lite.exe` | 轻量版；首次使用 YouTube 或 Twitch 时下载并校验 `yt-dlp` |
+| [Gitee Releases](https://gitee.com/ntrmao/DouyuMonitor-Releases/releases/tag/v1.13.0) | `LiveAquarium-Setup-1.13.0-Lite.exe` | 轻量版；首次使用 YouTube 或 Twitch 时下载并校验 `yt-dlp` |
 
 系统要求：Windows 10 或 Windows 11，64 位。推荐使用支持 D3D11VA 的显卡和最新稳定驱动；同时播放多路直播会消耗 GPU、CPU、内存和网络带宽。
 

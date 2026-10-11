@@ -38,7 +38,7 @@ Current version: **1.13.0**
 | Channel | Installer | Notes |
 | --- | --- | --- |
 | [GitHub Releases](https://github.com/maofanyi/LiveAquarium-Releases/releases/tag/v1.13.0) | `LiveAquarium-Setup-1.13.0.exe` | Full installer; recommended |
-| [Gitee Releases](https://gitee.com/ntrmao/DouyuMonitor-Releases/releases) | `LiveAquarium-Setup-1.13.0-Lite.exe` | Lite installer; downloads and verifies `yt-dlp` when YouTube or Twitch is first used |
+| [Gitee Releases](https://gitee.com/ntrmao/DouyuMonitor-Releases/releases/tag/v1.13.0) | `LiveAquarium-Setup-1.13.0-Lite.exe` | Lite installer; downloads and verifies `yt-dlp` when YouTube or Twitch is first used |
 
 Requires 64-bit Windows 10 or Windows 11. A GPU with D3D11VA support and a current stable driver is recommended. Multiple simultaneous streams consume GPU, CPU, memory, and network bandwidth.
 
