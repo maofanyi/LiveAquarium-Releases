@@ -1,12 +1,15 @@
 [简体中文](README.md) | [English](README.en-US.md)
 
+> **紧急通知（2026-10-11）：1.14.0 已暂停下载，请勿升级。**
+> 该版本存在斗鱼匿名播放及退出登录后原画房间加载失败的问题，正在修复。请暂时使用 [1.13.0 官方安装包](https://github.com/maofanyi/LiveAquarium-Releases/releases/tag/v1.13.0)。已升级用户请保留配置，暂时回退 1.13.0；无需删除应用数据。
+
 <div align="center">
   <img src="assets/app-icon.png" width="96" alt="直播水族馆图标">
   <h1>直播水族馆</h1>
   <p><strong>在一个窗口里，同时看懂多个直播间。</strong></p>
   <p>Windows 10 / 11 · 最多 16 路 · 公开房间无需登录</p>
   <p>
-    <a href="https://github.com/maofanyi/LiveAquarium-Releases/releases/latest"><strong>下载最新版</strong></a>
+    <a href="https://github.com/maofanyi/LiveAquarium-Releases/releases/tag/v1.13.0"><strong>下载最新版</strong></a>
     · <a href="https://maofanyi.github.io/LiveAquarium-Releases/">图解使用说明</a>
     · <a href="#交流与支持">交流与反馈</a>
   </p>
@@ -30,12 +33,12 @@
 
 ## 下载与安装
 
-当前版本：**1.14.0**
+当前版本：**1.13.0**
 
 | 渠道 | 安装包 | 说明 |
 | --- | --- | --- |
-| [GitHub Releases](https://github.com/maofanyi/LiveAquarium-Releases/releases/latest) | `LiveAquarium-Setup-1.14.0.exe` | 完整版，推荐 |
-| [Gitee Releases](https://gitee.com/ntrmao/DouyuMonitor-Releases/releases) | `LiveAquarium-Setup-1.14.0-Lite.exe` | 轻量版；首次使用 YouTube 或 Twitch 时下载并校验 `yt-dlp` |
+| [GitHub Releases](https://github.com/maofanyi/LiveAquarium-Releases/releases/tag/v1.13.0) | `LiveAquarium-Setup-1.13.0.exe` | 完整版，推荐 |
+| [Gitee Releases](https://gitee.com/ntrmao/DouyuMonitor-Releases/releases) | `LiveAquarium-Setup-1.13.0-Lite.exe` | 轻量版；首次使用 YouTube 或 Twitch 时下载并校验 `yt-dlp` |
 
 系统要求：Windows 10 或 Windows 11，64 位。推荐使用支持 D3D11VA 的显卡和最新稳定驱动；同时播放多路直播会消耗 GPU、CPU、内存和网络带宽。
 
@@ -45,19 +48,19 @@
 软件目前没有 Authenticode 代码签名，Windows 首次运行时可能显示“未知发布者”。请只从上述官方发行页下载安装包，并在需要时核对 SHA-256：
 
 ```powershell
-Get-FileHash -Algorithm SHA256 '.\LiveAquarium-Setup-1.14.0.exe'
+Get-FileHash -Algorithm SHA256 '.\LiveAquarium-Setup-1.13.0.exe'
 ```
 
 GitHub 完整版：
 
 ```text
-d4ce2e9e2f87dc8abcbc8947f82f3579c458ad1879764d486efa6a395c4f22ac
+ad5d3023e116347fe1ca004555956c973d2bc212d1ddb8b1a694eafce37bf938
 ```
 
 Gitee 轻量版：
 
 ```text
-e502e5b6e52db44207fb0251456e14b6b049568bbc3e2a1fd0d4c1a33932fce5
+7f3fd0158efadbdda13348ef86ace99c3f67b675a5cab6c431c811b1d73c1628
 ```
 
 </details>
