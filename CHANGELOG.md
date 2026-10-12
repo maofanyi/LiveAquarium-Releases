@@ -14,3 +14,7 @@
 
 - 优化监控尺寸调整，减少等待其他房间切换画质的时间。
 - 修复 F11 全屏下调节音量时，主播列表意外展开的问题。
+
+## 1.14.1 历史记录
+
+1.14.1 已停止提供安装包下载，其未登录播放修复已包含在 1.14.2 中。请[下载最新版](https://github.com/maofanyi/LiveAquarium-Releases/releases/latest)，或使用 [Gitee 新版下载](https://gitee.com/ntrmao/DouyuMonitor-Releases/releases/tag/v1.14.2)。[原 1.14.1 发布页](https://github.com/maofanyi/LiveAquarium-Releases/releases/tag/v1.14.1)保留历史更新记录。
