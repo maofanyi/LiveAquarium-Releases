@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "latestVersion": "1.14.1",
-  "publishedAt": "2026-10-11",
-  "releasePage": "https://gitee.com/ntrmao/DouyuMonitor-Releases/releases#release-v1.14.1",
-  "summary": "修复部分斗鱼直播间未登录时无法播放的问题，退出登录后自动切换到可用画质。",
+  "latestVersion": "1.14.2",
+  "publishedAt": "2026-10-12",
+  "releasePage": "https://gitee.com/ntrmao/DouyuMonitor-Releases/releases#release-v1.14.2",
+  "summary": "新增斗鱼「自动在线」开关，可自主选择房间是否自动保持在线，关闭后仍可发送弹幕。完善观看时长上报，优化监控尺寸调整，并修复全屏调节音量时主播列表意外展开的问题。包含此前未登录播放修复，建议更新至最新版。",
   "installer": {
-    "fileName": "LiveAquarium-Setup-1.14.1.exe",
-    "size": 115700248,
-    "sha256": "81c6e907229285b200618cf6cb6035f71e6cecc5d2916ecceafd7cd18883e06e",
+    "fileName": "LiveAquarium-Setup-1.14.2.exe",
+    "size": 115709266,
+    "sha256": "df5f44d43382dec3cac0d72f67897aa89a2f960ff90f86babb7d3fcc12d65d7d",
     "downloadUrls": [
-      "https://github.com/maofanyi/DouyuMonitor-Releases/releases/download/v1.14.1/LiveAquarium-Setup-1.14.1.exe"
+      "https://github.com/maofanyi/DouyuMonitor-Releases/releases/download/v1.14.2/LiveAquarium-Setup-1.14.2.exe"
     ]
   }
 }
