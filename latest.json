@@ -1,15 +1,17 @@
 {
   "schemaVersion": 1,
-  "latestVersion": "1.14.2",
-  "publishedAt": "2026-10-12",
-  "releasePage": "https://gitee.com/ntrmao/DouyuMonitor-Releases/releases#release-v1.14.2",
-  "summary": "新增斗鱼「自动在线」开关，可自主选择房间是否自动保持在线，关闭后仍可发送弹幕。完善观看时长上报，优化监控尺寸调整，并修复全屏调节音量时主播列表意外展开的问题。包含此前未登录播放修复，建议更新至最新版。",
+  "latestVersion": "1.15.0",
+  "publishedAt": "2026-10-20",
+  "releasePage": "https://gitee.com/ntrmao/DouyuMonitor-Releases/releases#release-v1.15.0",
+  "summary": "修复斗鱼弹幕及实时数据中断问题，新增竖屏布局、弹幕 @ 回复和礼物突发提醒，优化播放稳定性。",
+  "summaryEn": "Fixes interruptions to Douyu chat and live data. Adds portrait layouts, @ replies and gift burst alerts, and improves playback stability.",
   "installer": {
-    "fileName": "LiveAquarium-Setup-1.14.2.exe",
-    "size": 115709266,
-    "sha256": "df5f44d43382dec3cac0d72f67897aa89a2f960ff90f86babb7d3fcc12d65d7d",
+    "fileName": "LiveAquarium-Setup-1.15.0.exe",
+    "size": 115763651,
+    "sha256": "9230dc95cf495ef82dd1ab04471e3e17e07dd61317012884aee183410d3cda02",
     "downloadUrls": [
-      "https://github.com/maofanyi/DouyuMonitor-Releases/releases/download/v1.14.2/LiveAquarium-Setup-1.14.2.exe"
+      "https://github.com/maofanyi/DouyuMonitor-Releases/releases/download/v1.15.0/LiveAquarium-Setup-1.15.0.exe"
     ]
-  }
+  },
+  "baiduPanPage": "https://pan.baidu.com/s/16wUPRLfQK-yGaCF-Qamqmw?pwd=2cmw"
 }

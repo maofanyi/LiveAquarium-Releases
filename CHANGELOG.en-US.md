@@ -2,19 +2,23 @@
 
 [简体中文](CHANGELOG.md) | [English](CHANGELOG.en-US.md)
 
-## 1.14.2 (2026-10-12)
+## 1.15.0 (2026-10-20)
 
-### Douyu watching presence
+### Connections and playback
 
-- Adds a global automatic online switch in the Douyu watching panel. Choose automatic connections or manage room presence manually.
-- Chat remains available when automatic online is disabled. Temporary connections close after sending; when all ten slots are occupied, chat borrows a connection and restores the original room first afterward.
-- Improves Douyu watching-time reporting and connection management when changing quality, refreshing or switching accounts.
+- Fixes Douyu chat and live data failing to update on some networks by automatically switching to an available connection when a connection fails.
+- Improves fallback when a stream quality fails and window shutdown cleanup for more stable playback.
+- Keeps the screen awake during playback and prompts previously signed-in users to sign in again when their platform session expires.
 
-### Window controls
+### Monitor layouts and alerts
 
-- Improves monitor resizing and reduces waits for other rooms to change quality.
-- Fixes the streamer list unexpectedly opening when adjusting volume in F11 fullscreen.
+- Adds independent portrait monitor layouts, with landscape and portrait schemes saved separately.
+- Adds gift burst cards and animated borders, with a display toggle in Settings.
+- Adds audio selection border styles with preview, save and cancel-to-restore controls.
+- Gift alerts use estimated Fish Fin values. Gifts worth less than 1 Fish Fin per item do not contribute to alerts; gift statistics continue to record them.
 
-## 1.14.1 history
+### Chat and streamer list
 
-Installer downloads for 1.14.1 have been retired. Its anonymous playback fixes are included in 1.14.2. [Download the latest release](https://github.com/maofanyi/LiveAquarium-Releases/releases/latest), or use the [Gitee download](https://gitee.com/ntrmao/DouyuMonitor-Releases/releases/tag/v1.14.2). The [original 1.14.1 release page](https://github.com/maofanyi/LiveAquarium-Releases/releases/tag/v1.14.1) retains its historical release notes.
+- Adds Douyu @ replies in both the chat panel and the floating chat overlay.
+- Improves Bilibili follow search, selected-follow syncing and carousel playback, and fixes carousel streamers disappearing from the online list.
+- Shows the current broadcast duration in a dedicated row above chat and improves text-box focus clearing.
