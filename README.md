@@ -30,12 +30,12 @@
 
 ## 下载与安装
 
-当前版本：**1.15.0**
+当前版本：**1.16.0**
 
 | 渠道 | 安装包 | 说明 |
 | --- | --- | --- |
-| [GitHub Releases](https://github.com/maofanyi/LiveAquarium-Releases/releases/latest) | `LiveAquarium-Setup-1.15.0.exe` | 完整版，推荐 |
-| [Gitee Releases](https://gitee.com/ntrmao/DouyuMonitor-Releases/releases) | `LiveAquarium-Setup-1.15.0-Lite.exe` | 轻量版；首次使用 YouTube 或 Twitch 时下载并校验 `yt-dlp` |
+| [GitHub Releases](https://github.com/maofanyi/LiveAquarium-Releases/releases/latest) | `LiveAquarium-Setup-1.16.0.exe` | 完整版，推荐 |
+| [Gitee Releases](https://gitee.com/ntrmao/DouyuMonitor-Releases/releases) | `LiveAquarium-Setup-1.16.0-Lite.exe` | 轻量版；首次使用 YouTube 或 Twitch 时下载并校验 `yt-dlp` |
 
 系统要求：Windows 10 或 Windows 11，64 位。推荐使用支持 D3D11VA 的显卡和最新稳定驱动；同时播放多路直播会消耗 GPU、CPU、内存和网络带宽。
 
@@ -45,19 +45,19 @@
 软件目前没有 Authenticode 代码签名，Windows 首次运行时可能显示“未知发布者”。请只从上述官方发行页下载安装包，并在需要时核对 SHA-256：
 
 ```powershell
-Get-FileHash -Algorithm SHA256 '.\LiveAquarium-Setup-1.15.0.exe'
+Get-FileHash -Algorithm SHA256 '.\LiveAquarium-Setup-1.16.0.exe'
 ```
 
 GitHub 完整版：
 
 ```text
-9230dc95cf495ef82dd1ab04471e3e17e07dd61317012884aee183410d3cda02
+d365ee38abb4241fc6337eb38e33d30d540d3f5073b039927e91873fd4cc1352
 ```
 
 Gitee 轻量版：
 
 ```text
-7259963a77b12ae51c6eb4b6662966b2ce4b21cde80b9f66457322be836385c9
+87329b4917700b697f5563a7ece0a55ebae8b11ad18bc480e675f1c2b1b51bc1
 ```
 
 </details>

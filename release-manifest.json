@@ -2,21 +2,21 @@
   "schemaVersion": 1,
   "product": "直播水族馆",
   "subtitle": "多平台直播监看",
-  "version": "1.15.0",
+  "version": "1.16.0",
   "testVersion": null,
-  "gitCommit": "4b8611bd53e31ba91eed28c06075218e17f28c8c",
+  "gitCommit": "642c77bc4b9ece220bfc3aff445aecb7683a9ecd",
   "gitTreeState": "clean",
-  "builtAtUtc": "2026-10-19T18:20:56.0078331+00:00",
+  "builtAtUtc": "2026-11-18T10:47:17.6879194+00:00",
   "releaseScope": "public",
   "installer": {
-    "fileName": "直播水族馆-Setup-1.15.0.exe",
-    "size": 115763651,
-    "sha256": "9230dc95cf495ef82dd1ab04471e3e17e07dd61317012884aee183410d3cda02"
+    "fileName": "直播水族馆-Setup-1.16.0.exe",
+    "size": 115865728,
+    "sha256": "d365ee38abb4241fc6337eb38e33d30d540d3f5073b039927e91873fd4cc1352"
   },
   "giteeLiteInstaller": {
-    "fileName": "直播水族馆-Setup-1.15.0-Lite.exe",
-    "size": 98461154,
-    "sha256": "7259963a77b12ae51c6eb4b6662966b2ce4b21cde80b9f66457322be836385c9"
+    "fileName": "直播水族馆-Setup-1.16.0-Lite.exe",
+    "size": 98563600,
+    "sha256": "87329b4917700b697f5563a7ece0a55ebae8b11ad18bc480e675f1c2b1b51bc1"
   },
   "publicPackage": {
     "fileCount": 582,
@@ -24,17 +24,17 @@
       {
         "path": "直播水族馆.deps.json",
         "size": 57820,
-        "sha256": "6c44cd0da5a0d6cb3e95ac6e800f5be7aa1aaa0a70b0f27693754155af3b544e"
+        "sha256": "fd735b8036b44441139aa1009222fc72e5e031940e3b5b9b3df80293e2d9d46c"
       },
       {
         "path": "直播水族馆.dll",
-        "size": 3793408,
-        "sha256": "642db5991e9ad7d934e4e11730d7948c1980d0b39c44f1f32f34bf21e0390441"
+        "size": 4012032,
+        "sha256": "2317977c53d8de114d584609d6caa5f4a7628e11de901dd598e9a992e86975d2"
       },
       {
         "path": "直播水族馆.exe",
         "size": 246784,
-        "sha256": "320d7a7fd2fe7a50f3c301a5104f2571d845344280753f08e3dcd76d96157447"
+        "sha256": "e5cef7256bc60f7f970d23bf6cb0e62ff9583a1e77cc4228547bc7530aaf32e0"
       },
       {
         "path": "直播水族馆.runtimeconfig.json",
@@ -283,13 +283,13 @@
       },
       {
         "path": "DouyuMonitor.Core.dll",
-        "size": 773120,
-        "sha256": "7703294d84e50fb13ae5b01d070319a17211d7ea78c2dc3cdea4889836f39607"
+        "size": 883712,
+        "sha256": "eee8c7736d4ad1bdd539183c8e92ed8dba7084cfd20d03ec3aaae2b08fb47750"
       },
       {
         "path": "DouyuMonitor.Infrastructure.dll",
-        "size": 1636352,
-        "sha256": "f2944e534e7d43f31a59e905a334f566ebc16572e832fa4310f3ddccb4c276c5"
+        "size": 1760256,
+        "sha256": "ba2958bd8f6c36c796636f6ac5cbeac23437dab8410a215618f47ca9364c99d3"
       },
       {
         "path": "dwmcorei.dll",
@@ -303,8 +303,8 @@
       },
       {
         "path": "en-US/直播水族馆.resources.dll",
-        "size": 89600,
-        "sha256": "a340a243dadf21e577a0dd2d3b434e7579028989e8d6debd225541bdf7f2d875"
+        "size": 100352,
+        "sha256": "c1b459393ff919db63c2eef1b278d9bcdc78c5f2d788539026e0524d3da7e045"
       },
       {
         "path": "es/Microsoft.VisualBasic.Forms.resources.dll",
@@ -538,13 +538,13 @@
       },
       {
         "path": "guide/user-guide-english.html",
-        "size": 1321817,
-        "sha256": "719fdfe841f9372497e3dd4cb9c279f2b04e9afd7123fdf74d2e70a323debae3"
+        "size": 1321869,
+        "sha256": "1bc82201ba1db0e4641da238553a44794bbf1cc01b9369bec461003a22a21a4b"
       },
       {
         "path": "guide/user-guide.html",
-        "size": 1320710,
-        "sha256": "49c11740508e3a5f2bdcb97273ac9e1a3388490073b65545762700b5465633cc"
+        "size": 1320796,
+        "sha256": "8041265bfb726732810375e58392de6692f43f24d528df997d62c92a63b89003"
       },
       {
         "path": "hostfxr.dll",
@@ -2934,23 +2934,23 @@
     ]
   },
   "symbols": {
-    "archivePath": "artifacts/symbols/1.15.0/4b8611bd53e31ba91eed28c06075218e17f28c8c",
+    "archivePath": "artifacts/symbols/1.16.0/642c77bc4b9ece220bfc3aff445aecb7683a9ecd",
     "fileCount": 3,
     "files": [
       {
         "path": "直播水族馆.pdb",
-        "size": 770368,
-        "sha256": "a09b0b4f7c0474443541865082cdc57bc093f2590d47f26be8044829cf14a4db"
+        "size": 825760,
+        "sha256": "e330add1208539a2d27c684263d40b2b6d245af320379dffe0307cf984e2fc29"
       },
       {
         "path": "DouyuMonitor.Core.pdb",
-        "size": 195640,
-        "sha256": "fea5337cbad2a709c8ddd83626727eaed8fb05ec0bfcaf391eaeb8d984768eb6"
+        "size": 219152,
+        "sha256": "abecdd1af4f812acc3ee255ff5a4e74ef4a83eb3a6dd4e941d819fdedd7ef635"
       },
       {
         "path": "DouyuMonitor.Infrastructure.pdb",
-        "size": 356912,
-        "sha256": "8724b72e06fd51065d50e12c6e5db36f8dda7f55e5a0a5aaf403f10806692d66"
+        "size": 380832,
+        "sha256": "8516b9f31082d409efa77bc835ee524b1a53a845c4ebfe377da804f9c52f3dbd"
       }
     ]
   }

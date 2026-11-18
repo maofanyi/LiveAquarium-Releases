@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "latestVersion": "1.15.0",
-  "publishedAt": "2026-10-20",
-  "releasePage": "https://gitee.com/ntrmao/DouyuMonitor-Releases/releases#release-v1.15.0",
-  "summary": "修复斗鱼弹幕及实时数据中断问题，新增竖屏布局、弹幕 @ 回复和礼物突发提醒，优化播放稳定性。",
-  "summaryEn": "Fixes interruptions to Douyu chat and live data. Adds portrait layouts, @ replies and gift burst alerts, and improves playback stability.",
+  "latestVersion": "1.16.0",
+  "publishedAt": "2026-11-18",
+  "releasePage": "https://gitee.com/ntrmao/DouyuMonitor-Releases/releases#release-v1.16.0",
+  "summary": "竖屏直播支持拖动拼组，每组最多3路，同屏最多20路！新增4路独立录制，支持结束后自动合并和异常通知；配置导入导出现已包含软件设置、监控方案与布局。同时新增斗鱼弹幕等级过滤、发送颜色选择，完善启动登录恢复、播放线路恢复及小窗操作体验。",
+  "summaryEn": "Group up to 3 portrait streams and watch up to 20 streams. Record up to 4 streams with optional merging and failure alerts. Transfer settings and layouts, filter Douyu chat by level, choose chat colors, and enjoy improved sign-in recovery, stream recovery and compact controls.",
   "installer": {
-    "fileName": "LiveAquarium-Setup-1.15.0.exe",
-    "size": 115763651,
-    "sha256": "9230dc95cf495ef82dd1ab04471e3e17e07dd61317012884aee183410d3cda02",
+    "fileName": "LiveAquarium-Setup-1.16.0.exe",
+    "size": 115865728,
+    "sha256": "d365ee38abb4241fc6337eb38e33d30d540d3f5073b039927e91873fd4cc1352",
     "downloadUrls": [
-      "https://github.com/maofanyi/DouyuMonitor-Releases/releases/download/v1.15.0/LiveAquarium-Setup-1.15.0.exe"
+      "https://github.com/maofanyi/DouyuMonitor-Releases/releases/download/v1.16.0/LiveAquarium-Setup-1.16.0.exe"
     ]
   },
   "baiduPanPage": "https://pan.baidu.com/s/16wUPRLfQK-yGaCF-Qamqmw?pwd=2cmw"
